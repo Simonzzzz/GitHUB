@@ -14,6 +14,8 @@ $light: #f1f7fb;
 $color-h: #3d3d40;
 $default: #f33e12;
 
+
+$Extra-small: 360px;
 $Extra-small-device: 480px;
 $Small-device: 769px;
 $Medium-device: 992px;
@@ -1220,6 +1222,16 @@ h3{
 	}
 	.icon-sale{
 		height: 80px;
+	}
+}
+
+// 360
+@media (max-width: $Extra-small) {
+	.phone-tx{
+		font-size: 1.2em;
+	}
+	.button-head{
+		font-size: 0.9em;
 	}
 }
 
