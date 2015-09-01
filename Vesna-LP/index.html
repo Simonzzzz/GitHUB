@@ -9,7 +9,7 @@
 	<title>Vesna</title>
 	<link rel="stylesheet" href="css/bootstrap-grid-3.3.1.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-3.css">
 	<script src="js/modernizr-2.8.3.min.js"></script>
 	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
 	<link rel="stylesheet" href="css/themes/simple.css">
@@ -79,13 +79,13 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
-				<div class="images-vesna1 center-block __margin-bottom_s images-hover"></div>
+				<div class="images-vesna1 center-block __margin-bottom_s images-hover"><div class="bg-hover"></div></div>
 			</div>
 			<div class="col-sm-4">
-				<div class="images-vesna2 center-block __margin-bottom_s images-hover"></div>
+				<div class="images-vesna2 center-block __margin-bottom_s images-hover"><div class="bg-hover"></div></div>
 			</div>
 			<div class="col-sm-4">
-				<div class="images-vesna3 center-block __margin-bottom_s images-hover"></div>
+				<div class="images-vesna3 center-block __margin-bottom_s images-hover"><div class="bg-hover"></div></div>
 			</div>
 		</div>
 		<div class="row">
@@ -165,8 +165,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 __center">
-					<h3 class="__margin-bottom_sm">ЖК&nbsp;&laquo;Весна&raquo;&nbsp;&mdash; расположение на&nbsp;карте</h3>
-					<p class="__margin-bottom_m">Ленинградская область, Всеволожский район, Кудрово, Европейский проспект</p>
+					<h3 class="__margin-bottom_sm __white">ЖК&nbsp;&laquo;Весна&raquo;&nbsp;&mdash; расположение на&nbsp;карте</h3>
+					<p class="__margin-bottom_m __white">Ленинградская область, Всеволожский район, Кудрово, Европейский проспект</p>
 					<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=67rotTlC1SUc4X3YX5E0PRFJXulYMtt4&width=100%&height=500"></script>
 				</div>
 			</div>
@@ -492,18 +492,35 @@
 								<div class="col-md-6 col-xs-12">
 									<div class="left-mod1">
 										<p class="mod1_tx">ЖИЛИЩНЫЙ КОМПЛЕКС &laquo;ВЕСНА&raquo;<span class="__block green_tx">Студия</span></p>
-										<ul class="mod1_lst">
-											<li class="mod1_i">Площадь жилая <span class="bold_tx">216&nbsp;м2</span></li>
-											<li class="mod1_i">Площадь кухни <span class="bold_tx">3.31&nbsp;м2</span></li>
-											<li class="mod1_i">Площадь общая <span class="bold_tx">29.3&nbsp;м2</span></li>
-											<li class="mod1_i">Отделка <span class="bold_tx">Нет</span></li>
-										</ul>
+										<table class="table_mod1">
+											<tbody>
+												<tr>
+													<td width="160px">Площадь жилая</td>
+													<td>216&nbsp;м2</td>
+												</tr>
+												<tr>
+													<td>Площадь кухни</td>
+													<td>3.31&nbsp;м2</td>
+												</tr>
+												<tr>
+													<td>Площадь общая</td>
+													<td>29.3&nbsp;м2</td>
+												</tr>
+												<tr>
+													<td>Отделка</td>
+													<td>Нет</td>
+												</tr>
+											</tbody>
+										</table>
+
+
 										<div class="shema"></div>
 									</div>
 								</div>
 								<div class="col-md-6 col-xs-12">
 									<div class="right-mod1">
 										<form action="" class="form-mod1 __center">
+											<p class="h1_mod1">Заинтересовала квартира?</p>
 											<p class="h-form-mod1">Звоните:<span class="phone-mod1">(812) 339-00-20</span>или перезвоним в течение 15 минут</p>
 											<input type="text" class="one_it one-name_it" placeholder="Введите имя">
 											<input type="text" class="one_it one-phone_it" placeholder="Введите телефон">
@@ -576,9 +593,6 @@
 			$('.button-table').click(function(event) {
 				$('#exampleModal3').arcticmodal();
 			});
-
-
-
 
 	});
 	</script>

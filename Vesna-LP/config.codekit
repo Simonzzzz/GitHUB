@@ -38,6 +38,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/style-2.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/style-2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/style-3.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/style-3.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -74,7 +92,7 @@
 		"outputAbbreviatedPath": "\/img\/avatar.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/bg-free-1.jpg": {
 		"fileType": 16384,
@@ -109,13 +127,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/bg-free.jpg": {
-		"fileType": 16384,
+	"\/img\/bg-hover.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61854,
-		"inputAbbreviatedPath": "\/img\/bg-free.jpg",
-		"outputAbbreviatedPath": "\/img\/bg-free.jpg",
+		"initialSize": 2312,
+		"inputAbbreviatedPath": "\/img\/bg-hover.png",
+		"outputAbbreviatedPath": "\/img\/bg-hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -129,7 +147,18 @@
 		"outputAbbreviatedPath": "\/img\/bg-lent-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/bg-lent-ix3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5366,
+		"inputAbbreviatedPath": "\/img\/bg-lent-ix3.png",
+		"outputAbbreviatedPath": "\/img\/bg-lent-ix3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/bg-lent.jpg": {
 		"fileType": 16384,
@@ -138,17 +167,6 @@
 		"initialSize": 7066,
 		"inputAbbreviatedPath": "\/img\/bg-lent.jpg",
 		"outputAbbreviatedPath": "\/img\/bg-lent.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/bg-nine.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 53512,
-		"inputAbbreviatedPath": "\/img\/bg-nine.jpg",
-		"outputAbbreviatedPath": "\/img\/bg-nine.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -173,7 +191,18 @@
 		"outputAbbreviatedPath": "\/img\/bg-section-map-ix2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/bg-section-map-ix3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51220,
+		"inputAbbreviatedPath": "\/img\/bg-section-map-ix3.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-section-map-ix3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/bg-section-map.jpg": {
 		"fileType": 16384,
@@ -195,7 +224,18 @@
 		"outputAbbreviatedPath": "\/img\/bg-vesna4-index2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/bg-vesna4-ix3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3563,
+		"inputAbbreviatedPath": "\/img\/bg-vesna4-ix3.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-vesna4-ix3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/bg-vesna4.jpg": {
 		"fileType": 16384,
@@ -217,7 +257,7 @@
 		"outputAbbreviatedPath": "\/img\/bg-vesna5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/bg-vesna6.jpg": {
 		"fileType": 16384,
@@ -228,7 +268,7 @@
 		"outputAbbreviatedPath": "\/img\/bg-vesna6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/bg-vesna7.jpg": {
 		"fileType": 16384,
@@ -239,7 +279,7 @@
 		"outputAbbreviatedPath": "\/img\/bg-vesna7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/bg-w.png": {
 		"fileType": 32768,
@@ -250,7 +290,7 @@
 		"outputAbbreviatedPath": "\/img\/bg-w.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/chack.png": {
 		"fileType": 32768,
@@ -261,7 +301,7 @@
 		"outputAbbreviatedPath": "\/img\/chack.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/close.png": {
 		"fileType": 32768,
@@ -283,7 +323,18 @@
 		"outputAbbreviatedPath": "\/img\/icon-1-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/icon-1-ix3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5807,
+		"inputAbbreviatedPath": "\/img\/icon-1-ix3.png",
+		"outputAbbreviatedPath": "\/img\/icon-1-ix3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/icon-1.png": {
 		"fileType": 32768,
@@ -305,7 +356,18 @@
 		"outputAbbreviatedPath": "\/img\/icon-2-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/icon-2-ix3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5286,
+		"inputAbbreviatedPath": "\/img\/icon-2-ix3.png",
+		"outputAbbreviatedPath": "\/img\/icon-2-ix3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/icon-2.png": {
 		"fileType": 32768,
@@ -327,7 +389,18 @@
 		"outputAbbreviatedPath": "\/img\/icon-3-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/icon-3-ix3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5861,
+		"inputAbbreviatedPath": "\/img\/icon-3-ix3.png",
+		"outputAbbreviatedPath": "\/img\/icon-3-ix3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/icon-3.png": {
 		"fileType": 32768,
@@ -349,7 +422,18 @@
 		"outputAbbreviatedPath": "\/img\/icon-4-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/icon-4-ix3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6446,
+		"inputAbbreviatedPath": "\/img\/icon-4-ix3.png",
+		"outputAbbreviatedPath": "\/img\/icon-4-ix3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/icon-4.png": {
 		"fileType": 32768,
@@ -371,7 +455,18 @@
 		"outputAbbreviatedPath": "\/img\/icon-5-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/icon-5-ix3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5599,
+		"inputAbbreviatedPath": "\/img\/icon-5-ix3.png",
+		"outputAbbreviatedPath": "\/img\/icon-5-ix3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/icon-5.png": {
 		"fileType": 32768,
@@ -393,7 +488,18 @@
 		"outputAbbreviatedPath": "\/img\/icon-6-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/icon-6-ix3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5895,
+		"inputAbbreviatedPath": "\/img\/icon-6-ix3.png",
+		"outputAbbreviatedPath": "\/img\/icon-6-ix3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/icon-6.png": {
 		"fileType": 32768,
@@ -437,7 +543,7 @@
 		"outputAbbreviatedPath": "\/img\/icon-name-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icon-name.png": {
 		"fileType": 32768,
@@ -459,7 +565,7 @@
 		"outputAbbreviatedPath": "\/img\/icon-phone-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icon-phone.png": {
 		"fileType": 32768,
@@ -481,7 +587,7 @@
 		"outputAbbreviatedPath": "\/img\/left-str-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/left-str.png": {
 		"fileType": 32768,
@@ -547,7 +653,7 @@
 		"outputAbbreviatedPath": "\/img\/right-str-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/right-str.png": {
 		"fileType": 32768,
@@ -613,7 +719,7 @@
 		"outputAbbreviatedPath": "\/img\/small-l-str-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small-r-str-ix2.png": {
 		"fileType": 32768,
@@ -624,7 +730,7 @@
 		"outputAbbreviatedPath": "\/img\/small-r-str-ix2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/vector-right.png": {
 		"fileType": 32768,
@@ -669,24 +775,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/index-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/index-3.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index-3.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -773,6 +861,38 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/sass\/style-2.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/style-2.scss",
+		"outputAbbreviatedPath": "\/css\/style-2.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 0
+		},
+	"\/sass\/style-3.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/style-3.scss",
+		"outputAbbreviatedPath": "\/css\/style-3.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 0
 		},
 	"\/sass\/style.scss": {
 		"createSourceMap": 0,
