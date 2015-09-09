@@ -2,6 +2,33 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19033",
 "files": {
+	"\/actor.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/actor.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bat_signal.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bat_signal.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/beton.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/beton.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/config.rb": {
 		"fileType": 131072,
 		"ignore": 0,
@@ -38,16 +65,250 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/123.jpg": {
+	"\/decora.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/decora.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/full_freedom.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/full_freedom.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/gozeba.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/gozeba.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/grani.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/grani.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/1.VitaRaduga.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 258089,
-		"inputAbbreviatedPath": "\/img\/123.jpg",
-		"outputAbbreviatedPath": "\/img\/123.jpg",
+		"initialSize": 429857,
+		"inputAbbreviatedPath": "\/img\/1.VitaRaduga.jpg",
+		"outputAbbreviatedPath": "\/img\/1.VitaRaduga.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/10.Золотое-Звено.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.8527e+06,
+		"inputAbbreviatedPath": "\/img\/10.Золотое-Звено.jpg",
+		"outputAbbreviatedPath": "\/img\/10.Золотое-Звено.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/11.Перелесье.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.09671e+06,
+		"inputAbbreviatedPath": "\/img\/11.Перелесье.jpg",
+		"outputAbbreviatedPath": "\/img\/11.Перелесье.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/12.Актер.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 396252,
+		"inputAbbreviatedPath": "\/img\/12.Актер.jpg",
+		"outputAbbreviatedPath": "\/img\/12.Актер.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/13.GoZeba.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.15689e+06,
+		"inputAbbreviatedPath": "\/img\/13.GoZeba.jpg",
+		"outputAbbreviatedPath": "\/img\/13.GoZeba.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/14.RCN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.08085e+06,
+		"inputAbbreviatedPath": "\/img\/14.RCN.jpg",
+		"outputAbbreviatedPath": "\/img\/14.RCN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/15.Золотое-Звено2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 381250,
+		"inputAbbreviatedPath": "\/img\/15.Золотое-Звено2.jpg",
+		"outputAbbreviatedPath": "\/img\/15.Золотое-Звено2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/16.Нам-не-все-равно.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 960742,
+		"inputAbbreviatedPath": "\/img\/16.Нам-не-все-равно.jpg",
+		"outputAbbreviatedPath": "\/img\/16.Нам-не-все-равно.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/17.FullFreedom.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 602792,
+		"inputAbbreviatedPath": "\/img\/17.FullFreedom.jpg",
+		"outputAbbreviatedPath": "\/img\/17.FullFreedom.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/18.MyCatClub.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 490152,
+		"inputAbbreviatedPath": "\/img\/18.MyCatClub.jpg",
+		"outputAbbreviatedPath": "\/img\/18.MyCatClub.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/19.Бетон.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 516220,
+		"inputAbbreviatedPath": "\/img\/19.Бетон.jpg",
+		"outputAbbreviatedPath": "\/img\/19.Бетон.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/20.Grani.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 879004,
+		"inputAbbreviatedPath": "\/img\/20.Grani.jpg",
+		"outputAbbreviatedPath": "\/img\/20.Grani.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/3.Kinopolis.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.10982e+06,
+		"inputAbbreviatedPath": "\/img\/3.Kinopolis.jpg",
+		"outputAbbreviatedPath": "\/img\/3.Kinopolis.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/4.WantToSell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224453,
+		"inputAbbreviatedPath": "\/img\/4.WantToSell.jpg",
+		"outputAbbreviatedPath": "\/img\/4.WantToSell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/5.Фотогрф.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 304742,
+		"inputAbbreviatedPath": "\/img\/5.Фотогрф.jpg",
+		"outputAbbreviatedPath": "\/img\/5.Фотогрф.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/6.Decora.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 469225,
+		"inputAbbreviatedPath": "\/img\/6.Decora.jpg",
+		"outputAbbreviatedPath": "\/img\/6.Decora.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/7.Мастер-керама.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.32927e+06,
+		"inputAbbreviatedPath": "\/img\/7.Мастер-керама.jpg",
+		"outputAbbreviatedPath": "\/img\/7.Мастер-керама.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/8.BAT-Signal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 492317,
+		"inputAbbreviatedPath": "\/img\/8.BAT-Signal.jpg",
+		"outputAbbreviatedPath": "\/img\/8.BAT-Signal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/9.OnDoc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264050,
+		"inputAbbreviatedPath": "\/img\/9.OnDoc.jpg",
+		"outputAbbreviatedPath": "\/img\/9.OnDoc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/avdeev.jpg": {
 		"fileType": 16384,
@@ -58,7 +319,7 @@
 		"outputAbbreviatedPath": "\/img\/avdeev.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/bat_signal.jpg": {
 		"fileType": 16384,
@@ -69,7 +330,7 @@
 		"outputAbbreviatedPath": "\/img\/bat_signal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/beton.jpg": {
 		"fileType": 16384,
@@ -80,7 +341,7 @@
 		"outputAbbreviatedPath": "\/img\/beton.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/CZvoPkvZAs0.png": {
 		"fileType": 32768,
@@ -91,7 +352,7 @@
 		"outputAbbreviatedPath": "\/img\/CZvoPkvZAs0.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/decora.jpg": {
 		"fileType": 16384,
@@ -102,7 +363,7 @@
 		"outputAbbreviatedPath": "\/img\/decora.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/full_freedom.jpg": {
 		"fileType": 16384,
@@ -113,7 +374,7 @@
 		"outputAbbreviatedPath": "\/img\/full_freedom.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/gozeba.jpg": {
 		"fileType": 16384,
@@ -124,7 +385,7 @@
 		"outputAbbreviatedPath": "\/img\/gozeba.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/grani.jpg": {
 		"fileType": 16384,
@@ -135,7 +396,7 @@
 		"outputAbbreviatedPath": "\/img\/grani.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/JazzStone.jpg": {
 		"fileType": 16384,
@@ -146,7 +407,7 @@
 		"outputAbbreviatedPath": "\/img\/JazzStone.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/jazzstone1.jpg": {
 		"fileType": 16384,
@@ -157,7 +418,7 @@
 		"outputAbbreviatedPath": "\/img\/jazzstone1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/kinopolis.jpg": {
 		"fileType": 16384,
@@ -168,18 +429,7 @@
 		"outputAbbreviatedPath": "\/img\/kinopolis.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/lightsstore.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 33513,
-		"inputAbbreviatedPath": "\/img\/lightsstore.jpg",
-		"outputAbbreviatedPath": "\/img\/lightsstore.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/master_kerama.jpg": {
 		"fileType": 16384,
@@ -190,7 +440,7 @@
 		"outputAbbreviatedPath": "\/img\/master_kerama.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/my_cat_club.jpg": {
 		"fileType": 16384,
@@ -201,7 +451,7 @@
 		"outputAbbreviatedPath": "\/img\/my_cat_club.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/nam_ne_vse_ravno.jpg": {
 		"fileType": 16384,
@@ -212,7 +462,18 @@
 		"outputAbbreviatedPath": "\/img\/nam_ne_vse_ravno.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/OnDoc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72050,
+		"inputAbbreviatedPath": "\/img\/OnDoc.jpg",
+		"outputAbbreviatedPath": "\/img\/OnDoc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/perelesie.jpg": {
 		"fileType": 16384,
@@ -223,7 +484,7 @@
 		"outputAbbreviatedPath": "\/img\/perelesie.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/photograph.jpg": {
 		"fileType": 16384,
@@ -234,7 +495,7 @@
 		"outputAbbreviatedPath": "\/img\/photograph.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/rcn.jpg": {
 		"fileType": 16384,
@@ -245,7 +506,7 @@
 		"outputAbbreviatedPath": "\/img\/rcn.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/vitaraduga.jpg": {
 		"fileType": 16384,
@@ -256,7 +517,7 @@
 		"outputAbbreviatedPath": "\/img\/vitaraduga.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/want_to_sell.jpg": {
 		"fileType": 16384,
@@ -267,7 +528,7 @@
 		"outputAbbreviatedPath": "\/img\/want_to_sell.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/zolotoe_zveno.jpg": {
 		"fileType": 16384,
@@ -278,7 +539,7 @@
 		"outputAbbreviatedPath": "\/img\/zolotoe_zveno.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/zolotoezveno.jpg": {
 		"fileType": 16384,
@@ -289,18 +550,7 @@
 		"outputAbbreviatedPath": "\/img\/zolotoezveno.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/Прямоугольник 1 копия 4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 157811,
-		"inputAbbreviatedPath": "\/img\/Прямоугольник 1 копия 4.png",
-		"outputAbbreviatedPath": "\/img\/Прямоугольник 1 копия 4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -310,6 +560,26 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/jazz_stone.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jazz_stone.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/common.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/common.js",
+		"outputAbbreviatedPath": "\/js\/min\/common-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/js\/html5shiv\/es5-shim.min.js": {
 		"fileType": 64,
@@ -366,6 +636,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/min\/common-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/common-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/common-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/modernizr-2.8.3.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -376,6 +657,78 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/kino_polis.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kino_polis.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/master_kerama.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/master_kerama.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/my_cat_club.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/my_cat_club.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/nam_ne_vse_ravno.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/nam_ne_vse_ravno.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/on_doc.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/on_doc.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/perelesie.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/perelesie.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/photographer.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/photographer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/rcn.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rcn.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/sass\/style.scss": {
 		"createSourceMap": 0,
@@ -398,6 +751,33 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vita_raduga.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/want_to_sell.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/want_to_sell.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/zolotoe_zveno.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/zolotoe_zveno.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/zolotoe_zveno2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/zolotoe_zveno2.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
