@@ -1,0 +1,125 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/style.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+body{
+	font-family: Calibri, Arial;
+}
+.__mb30{
+	margin-bottom: 30px;
+}
+.logo-a{
+	color: #000;
+}
+// sidebar
+.h1{
+	font-size: 44px;
+	margin-bottom: 11px;
+	color: #000;
+	line-height: 1.2;
+}
+.profession{
+	font-size: 20px;
+	font-weight: lighter;
+	color: #5a5a5a;
+	margin-bottom: 50px;
+}
+.sidebar{
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.sidebar_lst{
+	margin-top: 30px;
+}
+.sidebar_i{
+	line-height: 1.8;
+}
+.sidebar_h{
+	font-size: 20px;
+	color: #000;
+}
+.sidebar_lk{
+	color: #5a5a5a;
+	font-size: 20px;
+	font-weight: lighter;
+	&:hover{
+		color: #000;
+		text-decoration: underline;
+	}
+}
+.sidebar_lk-active{
+	color: #000;
+	text-decoration: underline;
+}
+// content
+.content{
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.content_img{
+	width: 100%;
+	min-height: 320px;
+	position: relative;
+}
+.hover1{
+	width: 100%;
+	height: 320px;
+	display: none;
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.7);
+	z-index: 10;
+	padding-top: 130px;
+}
+.hover2{
+	width: 100%;
+	height: 320px;
+	display: none;
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.7);
+	z-index: 10;
+	padding-top: 130px;
+}
+.hover3{
+	width: 100%;
+	height: 320px;
+	display: none;
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.7);
+	z-index: 10;
+	padding-top: 130px;
+}
+.db{
+	display: block;
+}
+.content_tx{
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+.content_tx-small{
+	display: block;
+	font-size: 16px;
+	color: #5a5a5a;
+	font-weight: lighter;
+	text-transform: none;
+}
+.img1{
+	background: url(../img/vitaraduga.jpg) no-repeat;
+}
+.img2{
+	background: url(../img/jazzstone.jpg) no-repeat;
+}
+.img3{
+	background: url(../img/CZvoPkvZAs0.png) no-repeat;
+}
+
+
+.jazz-st{
+	background: url(../img/123.jpg) no-repeat center;
+	width: 100%;
+	height: 1920px;
+}

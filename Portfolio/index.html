@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Моё портфолио">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ekaterina Kadykova</title>
+	<link rel="stylesheet" href="css/bootstrap-grid-3.3.1.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr-2.8.3.min.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 sidebar">
+				<h1 class="h1">ЕКАТЕРИНА КАДЫКОВА</h1>
+				<p class="profession">Web-дизайнер</p>
+				<aside>
+					<ul class="sidebar_lst">
+						<li class="sidebar_i"><p class="sidebar_h">Интернет-магазин</p></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">VitaRaduga</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">FullFreedom</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">LightStore</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">My cat club</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">BatSignal</a></li>
+					</ul>
+					<ul class="sidebar_lst">
+						<li class="sidebar_i"><p class="sidebar_h">Сайт - портфолио</p></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">Фотограф</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">Актёр</a></li>
+					</ul>
+					<ul class="sidebar_lst">
+						<li class="sidebar_i"><p class="sidebar_h">Landing Page</p></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">Золотое звено</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">Перелесье</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">Ремонт квартир</a></li>
+					</ul>
+					<ul class="sidebar_lst">
+						<li class="sidebar_i"><p class="sidebar_h">Корпоративный сайт</p></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">JazzStone</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">Золотое звено</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">KinoPolis</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">WantToSell</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">Нам не всеравно</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">GoZeba</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">Decora</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">RCN</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">Мешаем бетон</a></li>
+						<li class="sidebar_i"><a class="sidebar_lk" href="#">Грани</a></li>
+					</ul>
+				</aside>
+			</div>
+			<div class="col-md-9 content">
+				<div class="row __mb30">
+					<div class="col-md-4">
+						<div class="content_img img1" onclick="javascript:document.location.href='vita_raduga.html'"><div class="hover1">
+							<p class="content_tx">VITA RADUGA<span class="content_tx-small">Интернет-магазин</span></p>
+						</div></div>
+					</div>
+					<div class="col-md-4">
+						<div class="content_img img2" onclick="javascript:document.location.href='http://mail.ru'"><div class="hover2">
+							<p class="content_tx">JAZZ-STONE<span class="content_tx-small">корпоративный сайт</span></p>
+						</div></div>
+					</div>
+					<div class="col-md-4">
+						<div class="content_img img3" onclick="javascript:document.location.href='http://mail.ru'"><div class="hover3">
+							<p class="content_tx">VitaRaduga<span class="content_tx-small">Интернет-магазин</span></p>
+						</div></div>
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+
+
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv/es5-shim.min.js"></script>
+	<script src="js/html5shiv/html5shiv.min.js"></script>
+	<script src="js/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="js/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.3.min.js"><\/script>')</script>
+
+	<script>
+	$(document).ready(function(){
+
+		$('.img1').mouseover(function(){
+			$('.hover1').toggleClass("db");
+		}).mouseout(function(){
+			$('.hover1').toggleClass("db");
+		});
+
+		$('.img2').mouseover(function(){
+			$('.hover2').toggleClass("db");
+		}).mouseout(function(){
+			$('.hover2').toggleClass("db");
+		});
+
+		$('.img3').mouseover(function(){
+			$('.hover3').toggleClass("db");
+		}).mouseout(function(){
+			$('.hover3').toggleClass("db");
+		});
+
+	});
+	</script>
+
+</body>
+</html>
