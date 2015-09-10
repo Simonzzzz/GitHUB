@@ -703,6 +703,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/pdf\/1.VitaRaduga.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.9609e+06,
+		"inputAbbreviatedPath": "\/pdf\/1.VitaRaduga.jpg",
+		"outputAbbreviatedPath": "\/pdf\/1.VitaRaduga.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pdf\/1.VitaRaduga_900.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.31763e+06,
+		"inputAbbreviatedPath": "\/pdf\/1.VitaRaduga_900.jpg",
+		"outputAbbreviatedPath": "\/pdf\/1.VitaRaduga_900.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/perelesie.html": {
 		"fileType": 8192,
 		"ignore": 0,
