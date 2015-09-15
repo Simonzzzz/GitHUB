@@ -288,13 +288,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/8.BAT-Signal.jpg": {
+	"\/img\/8.bat_signal.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 492317,
-		"inputAbbreviatedPath": "\/img\/8.BAT-Signal.jpg",
-		"outputAbbreviatedPath": "\/img\/8.BAT-Signal.jpg",
+		"initialSize": 446775,
+		"inputAbbreviatedPath": "\/img\/8.bat_signal.jpg",
+		"outputAbbreviatedPath": "\/img\/8.bat_signal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -707,20 +707,64 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.9609e+06,
+		"initialSize": 2.83670e+06,
 		"inputAbbreviatedPath": "\/pdf\/1.VitaRaduga.jpg",
 		"outputAbbreviatedPath": "\/pdf\/1.VitaRaduga.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/pdf\/1.VitaRaduga_900.jpg": {
+	"\/pdf\/11.Перелесье.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.31763e+06,
-		"inputAbbreviatedPath": "\/pdf\/1.VitaRaduga_900.jpg",
-		"outputAbbreviatedPath": "\/pdf\/1.VitaRaduga_900.jpg",
+		"initialSize": 7.68939e+06,
+		"inputAbbreviatedPath": "\/pdf\/11.Перелесье.jpg",
+		"outputAbbreviatedPath": "\/pdf\/11.Перелесье.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pdf\/12.actor.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.3933e+06,
+		"inputAbbreviatedPath": "\/pdf\/12.actor.jpg",
+		"outputAbbreviatedPath": "\/pdf\/12.actor.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pdf\/2.JazzStone.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.4552e+06,
+		"inputAbbreviatedPath": "\/pdf\/2.JazzStone.jpg",
+		"outputAbbreviatedPath": "\/pdf\/2.JazzStone.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pdf\/3.KinoPolis.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.28727e+06,
+		"inputAbbreviatedPath": "\/pdf\/3.KinoPolis.jpg",
+		"outputAbbreviatedPath": "\/pdf\/3.KinoPolis.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pdf\/4.WantToSell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.73239e+06,
+		"inputAbbreviatedPath": "\/pdf\/4.WantToSell.jpg",
+		"outputAbbreviatedPath": "\/pdf\/4.WantToSell.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
