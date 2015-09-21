@@ -1,0 +1,110 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+body{
+	font-family: 'Open Sans', Arial
+}
+// Переменные
+$grey: #d8dcde;
+$light-grey: #eceef1;
+$light: #f6f6f6;
+$color-h: #3d3d40;
+$default: #f33e12;
+
+$Extra-small: 360px;
+$Extra-small-device: 480px;
+$Small-device: 769px;
+$Medium-device: 992px;
+$Large-device: 1200px;
+
+// Модификаторы
+.__center{
+	text-align: center;
+}
+
+.__active_lk{
+	background-color: $light-grey;
+	font-weight: 700;
+}
+.__uppercase{
+	text-transform: uppercase;
+}
+.__padding-top{
+	padding-top: 60px;
+}
+.__padding-bottom{
+	padding-bottom: 80px;
+}
+.__margin-bottom_sm{
+	margin-bottom: 16px;
+}
+.__margin-bottom_s{
+	margin-bottom: 24px;
+}
+.__margin-bottom_m{
+	margin-bottom: 30px;
+}
+.__margin-bottom_l{
+	margin-bottom: 60px;
+}
+.__block{
+	display: block;
+}
+.__inline-block{
+	display: inline-block;
+}
+.__fr{
+	float: right;
+}
+.__fz28{
+	font-size: 1.750em;
+}
+.__fz76{
+	font-size: 4.750em;
+}
+.__fz24{
+	font-size: 1.500em;
+}
+.__fz18{
+	font-size: 1.125em;
+}
+.__fz14{
+	font-size: 0.875em;
+}
+.__fz9{
+	font-size: 0.563em;
+}
+.fz20{
+	font-size: 1.250em;
+}
+.__bold{
+	font-weight: bold;
+}
+.__relative{
+	position: relative;
+}
+.__lh30{
+	line-height: 30px;
+}
+.__lh22{
+	line-height: 22px;
+}
+.__lh25{
+	line-height: 25px;
+}
+
+// Header
+
+
+// 360px
+@media (max-width: $Extra-small) {
+	.phone-tx{
+		font-size: 1.2em;
+	}
+	.button-head{
+		font-size: 0.8em;
+	}
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vesna</title>
+	<link rel="stylesheet" href="css/bootstrap-grid-3.3.1.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr-2.8.3.min.js"></script>
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/themes/simple.css">
+
+</head>
+<body>
+	<header>
+
+	</header>
+
+
+
+
+
+<!-- Модальное окно №1 -->
+	<div class="container">
+		<div style="display: none">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="container">
+				<div class="box-modal1" id="exampleModal1">
+							<div class="row">
+								<div class="box-modal_close arcticmodal-close"><img src="img/close.png" height="28" width="29" alt="Закрыть"></div>
+								<div class="col-md-6 col-xs-12">
+
+								</div>
+								<div class="col-md-6 col-xs-12">
+
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Модальное окно №2 -->
+<div style="display: none">
+	<div class="box-modal2 __center" id="exampleModal2">
+		<div class="box-modal_close arcticmodal-close"><img src="img/close.png" height="28" width="29" alt="Закрыть"></div>
+		
+	</div>
+</div>
+
+<!-- Модальное окно №3 -->
+<div style="display: none">
+	<div class="box-modal3 __center" id="exampleModal3">
+		<div class="box-modal_close arcticmodal-close"><img src="img/close.png" height="28" width="29" alt="Закрыть"></div>
+		
+	</div>
+</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="footer_tx"></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv/es5-shim.min.js"></script>
+	<script src="js/html5shiv/html5shiv.min.js"></script>
+	<script src="js/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="js/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.3.min.js"><\/script>')</script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script>
+		$(function(){
+			$('.review_lk').click(function(event) {
+				$('#exampleModal1').arcticmodal();
+			});
+			$('.button-head').click(function(event) {
+				$('#exampleModal2').arcticmodal();
+			});
+			$('.button-table').click(function(event) {
+				$('#exampleModal3').arcticmodal();
+			});
+
+	});
+	</script>
+</body>
+</html>

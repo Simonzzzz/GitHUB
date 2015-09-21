@@ -173,7 +173,7 @@ $Large-device: 1200px;
 .cont-one{
 	background-image: url(../img/bg-one.png);
 	background-repeat: no-repeat;
-	background-position: 124% 0;
+	background-position: 100% 0;
 	padding-bottom: 37px;
 }
 .h1-one{
@@ -1084,6 +1084,9 @@ h3{
 	.form-nine{
 		max-width: 460px;
 	}
+	.form1:after{
+		display: none;
+	}
 }
 
 // 480
@@ -1171,7 +1174,7 @@ h3{
 		width: 100%;
 		padding-left: 2px;
 		padding-right: 2px;
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	.button-form2{
 		width: 100%;
@@ -1229,6 +1232,6 @@ h3{
 		font-size: 1.2em;
 	}
 	.button-head{
-		font-size: 0.9em;
+		font-size: 0.8em;
 	}
 }
