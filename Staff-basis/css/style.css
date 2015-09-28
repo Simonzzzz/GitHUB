@@ -300,25 +300,25 @@ header {
   background: url(../img/bg-box1.jpg);
   max-width: 554px;
   height: 320px;
-  padding: 40px; }
+  padding: 50px 30px; }
 
 .theme-2 {
   background: url(../img/bg-box2.jpg);
   max-width: 554px;
   height: 320px;
-  padding: 40px; }
+  padding: 50px 30px; }
 
 .theme-3 {
   background: url(../img/bg-box3.jpg);
   max-width: 554px;
   height: 320px;
-  padding: 40px; }
+  padding: 50px 30px; }
 
 .theme-4 {
   background: url(../img/bg-box4.jpg);
   max-width: 554px;
   height: 320px;
-  padding: 40px; }
+  padding: 50px 30px; }
 
 h4 {
   font-size: 60px;
