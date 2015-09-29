@@ -437,6 +437,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/js\/common.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/common.js",
+		"outputAbbreviatedPath": "\/js\/min\/common-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/html5shiv\/es5-shim.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -525,7 +536,7 @@
 		"outputAbbreviatedPath": "\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": 0
@@ -540,7 +551,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Staff-basis",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "globe_gray"
+	"iconImageName": "meme-girlfriend"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
