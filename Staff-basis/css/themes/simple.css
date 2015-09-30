@@ -2,6 +2,8 @@
 	position: relative;
 	background: #fff;
 	color: #3c3c3c;
+	padding: 50px;
+	max-width: 460px;
 }
 .box-modal2 {
 	position: relative;

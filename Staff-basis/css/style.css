@@ -257,10 +257,11 @@ header {
   background-color: #0d7bbb;
   line-height: 33px;
   padding-left: 32px;
-  padding-right: 10px;
+  padding-right: 14px;
   font-size: 20px;
   text-shadow: 0 2px 0 #000;
-  color: #fff; }
+  color: #fff;
+  position: relative; }
   .personal-i:before {
     content: '';
     position: absolute;
@@ -268,7 +269,7 @@ header {
     height: 14px;
     top: 50%;
     margin-top: -7px;
-    left: 24px;
+    left: 8px;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAABLElEQVQoU6XTSyuFURTG8f+TXGIgxcCHMFAGBso11yjKVMZGvop8AiMGEhMZuHQSA2WglJIiKUUpiemjddqvHL2cizXbvWv/2uvyin+E7Q5gHVhSrY7tduAQ6AIKNUG224ADoBu4Bfqrhmy3AvtAD3BfRKS7qqCE7AG9wAMwKOkm2lMxZLsFCKQPeAQGJF1nPS5CtjslxcfcsN0M7EYZwFNCrr4ny/YisArMSoraSyIhO8AI8AwMSbr8mRfQGrAAfACTkgpZku1GIJAx4CUhF3nPDqguLdU88B6XJJ3YbgC2gCngFRiWdP5b+VmP6oENYC5dmgGWo9x0HpV09tfyfk0tvWATmI7+p4m+AeOSTsv9ASXjT9g2MJF6FshxOSR3j2w3pTJXJB1VgkTOJ/RRZwkl/UqyAAAAAElFTkSuQmCC"); }
 
 .button-theme1 {
@@ -374,30 +375,77 @@ h4 {
   background: url(../img/partners-a-proekt.png) no-repeat; }
 
 .h5 {
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 300;
   margin-top: 62px;
   margin-bottom: 140px; }
+
+.tel-box {
+  margin-bottom: 100px; }
+
+.tel-sv {
+  font-size: 28px;
+  font-weight: 400;
+  padding-top: 9px; }
 
 .ic-facebook {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABDklEQVRIS2O0iZr5n4EOgHHUInJDeXAGnbIIL0N2rBWDoaEcAwszI9hzJ049YCiduIugR4n2ERMDA8PcpkAGFWVRFEOpbpEwNzvDhlnxcEt+/vjN8OXrL4YLl54wNMw5SD0fyQpyMyybEg03MKNsNcPVp+8JWgBTQHTQKQrzMCyaFAU3ODh9EcOrLz+oa5GBvAiDmCA3Q22pO9zg6patDJ++/WT4++cvw2UifEaUjw4vTcPp8sPH7jBUTd1H0GcUW9QzeR/DxhN3qGMRLzsLg6wQD8PMnjC4gXF5yxjefPnB8O33P4a///5RxyKQKXRJDKMWYYswolLdaNBRFHQEMwoBBUTH0ahF6CFAt6ADAH4YqsdFPfSEAAAAAElFTkSuQmCC") no-repeat;
   width: 26px;
   height: 26px;
   display: inline-block;
-  margin-right: 15px; }
+  margin-right: 15px;
+  margin-bottom: 50px; }
 
 .ic-vk {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB9ElEQVRIS2MMKpnxn4EOgHHUInJDeTToyA05hoENumgnIwY+Hg6w6x+9eM+w9dR1Bl05cYayZE8GLi52sPiTp28YiietY/jz7z+DOB83g7+dHgMzEyNY7s2HrwyrD11E8T1WHzWneDFoqcvCFRZ3rWR49v4TQ1agLYOtmQZcPK1hIcPbrz8YUrwtGDwd9OHij568ZiicuI6wRcbKUgxVGb5whfuOXmWYuuEIg6+5FkNCiC2KRSzMzAwTKyIYWFlZ4OLds7cxnLj1mLBFjIwMDB2ZfgwqipJwxbUT1jEoy4gwJITYwcXSGxcxxHqaMdgg+RLmKPRUgzMxmKhIM1Sm+8DVP3vxluHl608MhrqKcLH9x64yOFppw/lPn79lqJq6keHLz98YqROnRSBfVUS7MJjoKxOdpCct2MVw8Op9rOrxJm9QauopDoWnNEI2glJiy5xtDK+/fCfeRzCVoIRRkebDwARNusgmvHr9nkFMVBDF0IePXzE0z9nO8P7bD8KJAd051hpyDJlRTgycnJA8BAOgZG+kJssQHWCFIn78zC2GnpX7SbcIpENSgIfBw0KLwUBDlkFKUpjh5av3DKWT1jP8+POHwc9CmyHYzZiBm4cTbPj9hy8ZSqZsIM8iQvFDSH5gyzpCriNHftRH5IQaWM/wCzoAXp/EjYYwk/cAAAAASUVORK5CYII=") no-repeat;
   width: 26px;
   height: 26px;
   display: inline-block;
-  margin-right: 15px; }
+  margin-right: 15px;
+  margin-bottom: 50px; }
 
 .ic-linkedin {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABkklEQVRIS2NkqN7+n4EOgHHUInJDeWCDrlhZhKHUT5uBjZWJYdLWGwwNV5+T6xG4Pqw+elPiwCAswAFW9PP3Pwa1lj0Mj/7+o8gyrBbdybBiUJbhAxv89sMPBpXeAwwfKMwEWC3yFeBkSLFWZGBiZGBYevIxw4rXnynyDUgzVRKDMBMDw1sCIYvVouUuagzq0vxgX7z5+IPBbcNlBlNOVoaZYQZwn20684Th7defDBnOKgyqMgIMf//9Zzhy5QXDhP13GLZ++I4RAlgtOh5pyGChLQ5W/OjFFwb5KUcYbLnYGA5VOcENuHDnLYOOohADCzMjiqHvPv5kCJp2lOHg118o4mRbBDLl2/ffDHeffWZQlOJl4OFkhRu8ZO9dhtj9t6lj0at33xkiZ59g2Pf5J4MLLwfDulxrBl4uiGUPnn9mUJx6lDoWLdpzhyH+wB24YftD9BgcDKTA/B8//zJwNu+mjkXTttxgyD7xAG7YOg9NhkAbeURJULNj1CLsyXs06KhS1hFT4o5aREwoYVVDt6ADAKH0FSQ1W40yAAAAAElFTkSuQmCC") no-repeat;
   width: 26px;
   height: 26px;
-  display: inline-block; }
+  display: inline-block;
+  margin-bottom: 50px; }
+
+footer {
+  margin-bottom: 30px; }
+  footer p {
+    color: #acacac;
+    font-size: 18px;
+    width: 484px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.one_it {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #cac9c9;
+  padding-left: 22px;
+  margin-bottom: 13px; }
+
+.h-form-mod2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px; }
+
+.p-form-bold {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px; }
+
+.p-form {
+  font-size: 18px;
+  margin-bottom: 30px; }
+
+.mod2_it {
+  margin-bottom: 30px; }
+
+.button-mod {
+  width: 100%; }
 
 @media (max-width: 360px) {
   .phone-tx {
