@@ -26,4 +26,26 @@ $(function(){
 	$('.theme-4').mouseout(function(event){
 		$('.button-theme4').toggleClass('hide');
 	});
+
+	$('.personal').mouseover(function(event){
+		$('.button-personal').toggleClass('hide');
+	});
+	$('.personal').mouseout(function(event){
+		$('.button-personal').toggleClass('hide');
+	});
+
+});
+
+$(".form-mod2").submit(function() {
+        $.ajax({
+            type: "GET",
+            url: "mail.php",
+            data: $("form").serialize()
+        }).done(function() {
+            alert("Спасибо за заявку!");
+            setTimeout(function() {
+                $.fancybox.close();
+            }, 1000);
+        });
+        return false;
 });
