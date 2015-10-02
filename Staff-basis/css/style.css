@@ -161,6 +161,8 @@ header {
 
 .button-header {
   border-radius: 23px;
+  padding-left: 30px;
+  padding-right: 30px;
   box-shadow: 0 1px 0 #b49d31;
   text-shadow: 0 2px 0 white;
   max-width: 303px;
@@ -610,7 +612,13 @@ footer {
     margin-top: 0; }
 
   .icon-box-small {
-    padding-bottom: 30px; } }
+    padding-bottom: 30px; }
+
+  .logo-tx {
+    width: 220px; }
+
+  .tel-sm {
+    display: block; } }
 @media (max-width: 480px) {
   .logo-tx {
     width: 190px; }
@@ -636,9 +644,6 @@ footer {
 
   .tel-sv {
     font-size: 34px; }
-
-  .tel-sm {
-    display: block; }
 
   .button-one {
     font-size: 26px;
