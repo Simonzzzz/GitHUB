@@ -65,6 +65,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/bg-box1-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40193,
+		"inputAbbreviatedPath": "\/img\/bg-box1-2.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-box1-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bg-box1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -72,6 +83,17 @@
 		"initialSize": 49757,
 		"inputAbbreviatedPath": "\/img\/bg-box1.jpg",
 		"outputAbbreviatedPath": "\/img\/bg-box1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/bg-box2-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34621,
+		"inputAbbreviatedPath": "\/img\/bg-box2-2.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-box2-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -87,6 +109,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/bg-box3-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24870,
+		"inputAbbreviatedPath": "\/img\/bg-box3-2.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-box3-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/img\/bg-box3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -94,6 +127,17 @@
 		"initialSize": 34845,
 		"inputAbbreviatedPath": "\/img\/bg-box3.jpg",
 		"outputAbbreviatedPath": "\/img\/bg-box3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/bg-box4-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25971,
+		"inputAbbreviatedPath": "\/img\/bg-box4-2.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-box4-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -116,6 +160,17 @@
 		"initialSize": 115066,
 		"inputAbbreviatedPath": "\/img\/bg-section1.jpg",
 		"outputAbbreviatedPath": "\/img\/bg-section1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/bg-section2-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57349,
+		"inputAbbreviatedPath": "\/img\/bg-section2-2.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-section2-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -437,6 +492,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/js\/ajax.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/ajax.js",
+		"outputAbbreviatedPath": "\/js\/min\/ajax-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/common.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -492,12 +558,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/jquery-1.11.3.min.js": {
+	"\/js\/jquery-1.11.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jquery-1.11.3.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/jquery-1.11.3.min-min.js",
+		"inputAbbreviatedPath": "\/js\/jquery-1.11.1.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery-1.11.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -514,6 +580,39 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/jquery.maskedinput.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.maskedinput.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.maskedinput-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/ajax-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/ajax-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/ajax-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/common-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/common-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/common-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/modernizr-2.8.3.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -524,6 +623,26 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/js\/validate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/validate.js",
+		"outputAbbreviatedPath": "\/js\/min\/validate-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/mail.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mail.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/sass\/style.scss": {
 		"createSourceMap": 0,
