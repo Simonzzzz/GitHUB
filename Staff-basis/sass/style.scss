@@ -110,10 +110,10 @@ header{
 	padding-top: 39px;
 }
 .logo{
-	background: url(../img/logo.svg) no-repeat;
-	width: 613px;
+	background: url(../img/logo-1.svg) no-repeat center top;
+	width: 624px;
 	height: 125px;
-	background-size: contain;
+	background-size: cover;
 }
 
 .tel{
@@ -579,7 +579,8 @@ footer{
 // 992px
 @media (max-width: $Medium-device) {
 	.logo{
-		width: 90px;
+		max-width: 440px;
+		background-size: 90%;
 	}
 	.logo-tx{
 		width: 270px;
@@ -619,6 +620,8 @@ footer{
 	}
 	.logo{
 		display: inline-block;
+		width: 100%;
+		margin: 0 auto;
 	}
 	.button-header{
 		margin-bottom: 30px;
@@ -661,9 +664,7 @@ footer{
 
 // 480px
 @media (max-width: $Extra-small-device) {
-	.logo-tx{
-		width: 190px;
-	}
+
 	.h1-section-one{
 		font-size: 32px;
 	}
@@ -700,9 +701,7 @@ footer{
 	h4{
 		font-size: 40px;
 	}
-	.logo{
-		width: 70px;
-	}
+
 	.section-one_i{
 		font-size: 24px;
 	}
