@@ -38,6 +38,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/bg-one.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171568,
+		"inputAbbreviatedPath": "\/img\/bg-one.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-one.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -137,8 +148,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "Новый проект",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "Bestfix",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-soon"
 	},
 "projectSettings": {
