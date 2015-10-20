@@ -13,8 +13,12 @@ $red: #eb1c23;
 .__center{
 	text-align: center;
 }
+.__block{
+	display: block;
+}
 .row{
 	width: 100%;
+	clear: both;
 }
 .one{
   background: url("../img/bg-small.png");
@@ -174,4 +178,20 @@ a.header-email{
 	font-size: 30px;
 	font-weight: 400;
 	display: block;
+}
+.col-70{
+	width: 70%;
+	text-align: left;
+	display: inline-block;
+	float: left;
+}
+.col-30{
+	width: 30%;
+	text-align: left;
+	display: inline-block;
+}
+.advantages_tx{
+	font-size: 30px;
+	color: #0094d9;
+	font-family: 'Conv_Roboto-Bold';
 }
