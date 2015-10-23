@@ -1,0 +1,11 @@
+.box-modal1 {
+	position: relative;
+	background: #e2e2e2;
+	color: #3c3c3c;
+	padding: 28px;
+	max-width: 404px;
+	height: 350px;
+}
+
+.box-modal_close { position: absolute; right: -14px; top: -14px; font-size: 11px; line-height: 15px; color: #999; cursor: pointer; z-index: 10;}
+.box-modal_close:hover { color: #666; }

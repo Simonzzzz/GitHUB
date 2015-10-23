@@ -9,8 +9,8 @@
 	<title>BESTFIX</title>
 	<link rel="stylesheet" href="css/fonts.css">
 	<script src="js/modernizr-2.8.3.min.js"></script>
-	<!-- <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/simple.css"> -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/themes/simple.css">
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -27,7 +27,7 @@
 					<h1 class="h1">Хомуты<br> сантехнические <span class="h1-min">в Санкт-Петербурге от производителя</span></h1>
 					<div class="price">
 						<p class="price_tx">от 6,91 р. за штуку</p>
-						<button type="button" name="button" class="button-one">Получить прайс на почту</button>
+						<button type="button" name="button" class="button-one bottom-start">Получить прайс на почту</button>
 					</div>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 				<div class="picture_txt">
 					<p class="picture_tx">Хомут сантехнический</p>
 					<p class="picture_tx-bold">с резинкой и гайкой</p>
-					<button type="button" name="button" class="button-two">Получить прайс</button>
+					<button type="button" name="button" class="button-two bottom-start">Получить прайс</button>
 				</div>
 			</div>
 			<div class="row row-mb">
@@ -50,7 +50,7 @@
 				<div class="picture_txt">
 					<p class="picture_tx">Хомут сантехнический</p>
 					<p class="picture_tx-bold">с резинкой и гайкой <br>усиленный</p>
-					<button type="button" name="button" class="button-two">Получить прайс</button>
+					<button type="button" name="button" class="button-two bottom-start">Получить прайс</button>
 				</div>
 			</div>
 			<div class="row row-mb">
@@ -58,7 +58,7 @@
 				<div class="picture_txt">
 					<p class="picture_tx">Хомут сантехнический</p>
 					<p class="picture_tx-bold">с шурупом</p>
-					<button type="button" name="button" class="button-two">Получить прайс</button>
+					<button type="button" name="button" class="button-two bottom-start">Получить прайс</button>
 				</div>
 			</div>
 			<div class="row row-mb">
@@ -66,7 +66,7 @@
 				<div class="picture_txt">
 					<p class="picture_tx">Хомут сантехнический</p>
 					<p class="picture_tx-bold">со шпилькой и дюбелем в комплекте</p>
-					<button type="button" name="button" class="button-two">Получить прайс</button>
+					<button type="button" name="button" class="button-two bottom-start">Получить прайс</button>
 				</div>
 			</div>
 		</div>
@@ -183,7 +183,7 @@
 			<p class="form-map_tx">+7 812 <span class="form-map_txt">386 33 22</span></p>
 			<a href="mailto:zakaz@roste.ru" class="form-map_mail">zakaz@roste.ru</a>
 			<p class="form-map_info">Санкт-Петербург<span class="__block">Благодатная улица, 69</span></p>
-			<button type="button" name="button" class="button-two">Отправить запрос</button>
+			<button type="button" name="button" class="button-two bottom-start">Отправить запрос</button>
 		</div>
 	</div>
 </section>
@@ -192,7 +192,7 @@
 <section class="wrapper">
 	<div class="container __center">
 		<footer class="footer">
-			<div class="logo-rosteh"></div>
+			<a href="http://roste.ru/" class="logo-rosteh"></a>
 			<div class="footer_tx">
 				<p class="f-txt">Остались вопросы?</p>
 				<a href="#" class="footer_lk">Задайте их нашему менеджеру</a>
@@ -204,20 +204,24 @@
 
 
 <!-- Модальное окно №1 -->
-<!-- <div style="display: none">
-	<div class="box-modal1 __center" id="exampleModal1">
+<div style="display: none">
+	<div class="box-modal1" id="exampleModal1">
 		<div class="box-modal_close arcticmodal-close"><img src="img/close.png" height="28" width="29" alt="Закрыть"></div>
-
 		<form action="mail.php" method="get" id="form-mod2" class="form-mod2">
-			<p class="h-form-mod2">Подбор персонала</p>
-			<p class="p-form-bold">Профессиональный рекрутинг с&nbsp;учетом особенностей кадрового консалтинга.</p>
-			<p class="p-form">Специалисты любого профиля, различных сфер бизнеса.</p>
-			<input type="text" name="name" class="one_it" placeholder="Введите имя">
-			<input type="text" name="phone" id="phone"  class="one_it mod2_it" placeholder="Введите телефон">
-			<button type="submit" id="button-form" class="button-header __uppercase button-mod">Заказать звонок</button>
+			<p class="h-form">Получить прайс-лист и консультацию</p>
+			<p class="p-form">Заполните форму, и&nbsp;мы&nbsp;вышлем вам прайс-лист немедленно.</p>
+			<p class="p-form">Специалист свяжется с&nbsp;вами в&nbsp;течении 15&nbsp;минут.</p>
+			<div class="it-box">
+				<input type="text" name="name" class="one_it" placeholder="Ваше имя">
+				<input type="text" name="email" class="one_it" placeholder="Почта">
+				<input type="text" name="phone" id="phone"  class="one_it" placeholder="Телефон">
+			</div>
+			<textarea class="text_it" name="text" placeholder="Ваше сообщение"></textarea>
+			<div class="clear"></div>
+			<button type="submit" id="button-form" class="button-form">Отправить</button>
 		</form>
 	</div>
-</div> -->
+</div>
 
 
 
@@ -228,10 +232,11 @@
 	<script src="js/respond/respond.min.js"></script>
 	<![endif]-->
 	<script src="js/jquery-1.11.1.min.js"></script>
-	<!-- <script src="js/jquery.arcticmodal-0.3.min.js"></script> -->
-	<!-- <script src="js/jquery.maskedinput.js"></script> -->
-	<!-- <script src="js/validate.js"></script> -->
-	<!-- <script src="js/min/ajax-min.js"></script> -->
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="js/jquery.maskedinput.js"></script>
+	<script src="js/validate.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="js/ie-placeholder.min.js"></script>
 
 </body>
 </html>

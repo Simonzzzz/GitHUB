@@ -19,7 +19,7 @@ bigMap.behaviors.disable('scrollZoom');
 // Создаем массив с данными.
 			myPoints = [
 				{
-	coords: [59.874598, 30.344309],
+	coords: [59.877412, 30.345539],
 	name: "Санкт-Петербург",
 	text: "<b>Головной офис в Санкт-Петербурге</b><br><br>195279, Санкт-Петербург, Благодатная улица, д.69<br>Тел.: +7 (812) 386-33-22<br><a href=\"mailto:zakaz@roste.ru\">Email: zakaz@roste.ru</a><br><br>",
 												type: "extra"

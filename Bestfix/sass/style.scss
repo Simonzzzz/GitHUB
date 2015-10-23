@@ -25,10 +25,17 @@ $red: #eb1c23;
 .__pb13{
 	padding-bottom: 13px;
 }
+.clear{
+	clear: both;
+}
 .row{
 	width: 100%;
 	clear: both;
 	overflow: hidden;
+}
+.warnings {
+	color: red !important;
+	border: 2px solid red !important;
 }
 .one{
 	background: url("../img/bg-small.png");
@@ -384,4 +391,97 @@ a.header-email{
 	color: #ec1c24;
 	text-decoration: none;
 	border-bottom: 1px dashed #ec1c24;
+}
+// Модальное окно
+.form-mod2{
+	overflow: hidden;
+}
+.h-form{
+	font-size: 30px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #231f20;
+	font-family: 'Conv_Roboto-Bold';
+	margin-bottom: 10px;
+}
+.p-form{
+	font-size: 12px;
+	font-weight: 400;
+	font-weight: 400;
+}
+.text_it{
+
+}
+.button-form{
+	margin: 0 auto;
+	display: block;
+	float: right;
+	width: 200px;
+	height: 33px;
+	color: #fff;
+	font-size: 18px;
+	background: $red;
+	border: 0;
+	cursor: pointer;
+	&:hover{
+		background-color: lighten($red, 5%);
+	}
+}
+.it-box{
+	width: 195px;
+	display: inline-block;
+	float: left;
+	margin-top: 28px;
+}
+.one_it{
+	width: 180px;
+	height: 40px;
+	padding-left: 10px;
+	margin-bottom: 19px;
+	font-size: 16px;
+	color: #000;
+}
+.text_it{
+	float: right;
+	width: 178px;
+	height: 154px;
+	display: block;
+	margin-top: 28px;
+	font-size: 16px;
+	color: #000;
+	padding: 10px;
+	font-family: 'Conv_Roboto-Regular';
+}
+.one_it::-webkit-input-placeholder{
+	color:#000;
+  font-size:18px;
+}
+.one_it::-moz-placeholder{
+	color:#000;
+	font-size:18px;
+}/* Firefox 19+ */
+.one_it:-moz-placeholder{
+	color:#000;
+	font-size:18px;
+}/* Firefox 18- */
+.one_it:-ms-input-placeholder{
+	color:#000;
+	font-size:18px;
+}
+
+.text_it::-webkit-input-placeholder{
+	color:#000;
+  font-size:18px;
+}
+.text_it::-moz-placeholder{
+	color:#000;
+	font-size:18px;
+}/* Firefox 19+ */
+.text_it:-moz-placeholder{
+	color:#000;
+	font-size:18px;
+}/* Firefox 18- */
+.text_it:-ms-input-placeholder{
+	color:#000;
+	font-size:18px;
 }
