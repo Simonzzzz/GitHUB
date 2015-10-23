@@ -42,7 +42,7 @@ $red: #eb1c23;
 	min-width: 1000px;
 }
 .one-inner{
-	background: url("../img/bg-one.jpg") no-repeat 454px 119px;
+	background: url("../img/bg-one.png") no-repeat 454px 119px;
 	height: 700px;
 }
 .wrapper{
@@ -389,8 +389,9 @@ a.header-email{
 	font-size: 21px;
 	font-weight: 400;
 	color: #ec1c24;
-	text-decoration: none;
 	border-bottom: 1px dashed #ec1c24;
+	display: inline;
+	cursor: pointer;
 }
 // Модальное окно
 .form-mod2{
