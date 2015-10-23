@@ -1,10 +1,10 @@
 <?php
 
-$recepient = "zakaz@roste.ru";
+$recepient = "sambukist@mail.ru";
 $sitename = "Bestfix";
 
 $name = trim($_GET["name"]);
-$email = trim($_GET["email"]);
+$email = trim($_GET["mail_to"]);
 $phone = trim($_GET["phone"]);
 $text = trim($_GET["text"]);
 

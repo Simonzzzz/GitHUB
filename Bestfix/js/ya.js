@@ -21,7 +21,7 @@ bigMap.behaviors.disable('scrollZoom');
 				{
 	coords: [59.877412, 30.345539],
 	name: "Санкт-Петербург",
-	text: "<b>Головной офис в Санкт-Петербурге</b><br><br>195279, Санкт-Петербург, Благодатная улица, д.69<br>Тел.: +7 (812) 386-33-22<br><a href=\"mailto:zakaz@roste.ru\">Email: zakaz@roste.ru</a><br><br>",
+	text: "<b>Головной офис в Санкт-Петербурге</b><br><br>195279, Санкт-Петербург, Благодатная улица, д.69<br>Тел.: +7 (812) 386-33-22<br><a href=\"mailto:zakaz@roste.ru\">Email: bestfix@roste.ru</a><br><br>",
 												type: "extra"
 									}
 
@@ -33,13 +33,13 @@ for (var i = 0, l = myPoints.length; i < l; i++) {
 		if (point.type == 'extra') {
 
 			//Большая красная метка
-				img_src = '/test/bestfix/images/map-marker-big.png';
+				img_src = '/bestfix/images/map-marker-big.png';
 				image_size = [46, 68];
 				image_offset = [-15, -50];
 		} else {
 
 			//Обычная голубая метка
-				img_src = '/test/bestfix/images/map-marker-big.png';
+				img_src = '/bestfix/images/map-marker-big.png';
 				image_size = [27, 32];
 				image_offset = [-13, -28];
 		}
