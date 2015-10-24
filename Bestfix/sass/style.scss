@@ -35,7 +35,7 @@ $red: #eb1c23;
 }
 .warnings {
 	color: red !important;
-	border: 2px solid red !important;
+	border: 1px solid red !important;
 }
 .one{
 	background: url("../img/bg-small.png");
@@ -51,6 +51,8 @@ $red: #eb1c23;
 }
 .header{
 	height: 141px;
+	margin-bottom: 107px;
+	clear: both;
 }
 
 .logo{
@@ -58,21 +60,22 @@ $red: #eb1c23;
 	width: 300px;
 	height: 141px;
 	display: inline-block;
-	margin-bottom: 107px;
+	float: left;
 }
 .tel{
 	float: right;
-	display: inline-block;
-	font-size: 21px;
-	font-weight: 400;
-	width: 260px;
+	font-size: 40px;
+	font-weight: 700;
+	width: 370px;
 	text-align: right;
 	margin-top: 38px;
-}
-.tel-inner{
-	font-size: 40px;
 	font-family: 'Conv_Roboto-Bold';
+	color: #000;
 }
+.tel a{
+	color: #000;
+}
+
 .one_tx{
 	width: 390px;
 	display: inline-block;
@@ -333,14 +336,14 @@ a.header-email{
 	}
 }
 .form-map_tx{
-	font-size: 21px;
-	font-weight: 400;
-	margin-bottom: 22px;
-}
-.form-map_txt{
-	font-size: 40px;
+	font-size: 36px;
 	font-weight: 700;
 	font-family: 'Conv_Roboto-Bold';
+	margin-bottom: 22px;
+}
+
+.form-map_tx a{
+	color: #000;
 }
 .form-map_mail{
 	font-size: 21px;
@@ -424,6 +427,7 @@ a.header-email{
 	background: $red;
 	border: 0;
 	cursor: pointer;
+	outline: none;
 	&:hover{
 		background-color: lighten($red, 5%);
 	}
@@ -441,6 +445,8 @@ a.header-email{
 	margin-bottom: 19px;
 	font-size: 16px;
 	color: #000;
+	outline: none;
+	border: 1px solid #777777;
 }
 .text_it{
 	float: right;
@@ -452,6 +458,8 @@ a.header-email{
 	color: #000;
 	padding: 10px;
 	font-family: 'Conv_Roboto-Regular';
+	outline: none;
+	border: 1px solid #777777;
 }
 .one_it::-webkit-input-placeholder{
 	color:#000;

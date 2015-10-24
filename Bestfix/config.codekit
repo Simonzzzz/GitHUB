@@ -74,7 +74,7 @@
 		"outputAbbreviatedPath": "\/images\/map-marker-big.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/bg-one.jpg": {
 		"fileType": 16384,
@@ -85,7 +85,7 @@
 		"outputAbbreviatedPath": "\/img\/bg-one.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/bg-one.png": {
 		"fileType": 32768,
@@ -96,7 +96,7 @@
 		"outputAbbreviatedPath": "\/img\/bg-one.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/bg-small.png": {
 		"fileType": 32768,
@@ -107,7 +107,7 @@
 		"outputAbbreviatedPath": "\/img\/bg-small.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/close.png": {
 		"fileType": 32768,
@@ -118,7 +118,7 @@
 		"outputAbbreviatedPath": "\/img\/close.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/homut-1.png": {
 		"fileType": 32768,
@@ -129,7 +129,7 @@
 		"outputAbbreviatedPath": "\/img\/homut-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/homut-2.png": {
 		"fileType": 32768,
@@ -140,7 +140,7 @@
 		"outputAbbreviatedPath": "\/img\/homut-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/homut-3.png": {
 		"fileType": 32768,
@@ -151,7 +151,7 @@
 		"outputAbbreviatedPath": "\/img\/homut-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/homut-4.png": {
 		"fileType": 32768,
@@ -162,7 +162,7 @@
 		"outputAbbreviatedPath": "\/img\/homut-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icon-car.png": {
 		"fileType": 32768,
@@ -173,7 +173,7 @@
 		"outputAbbreviatedPath": "\/img\/icon-car.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icon-home.png": {
 		"fileType": 32768,
@@ -184,7 +184,7 @@
 		"outputAbbreviatedPath": "\/img\/icon-home.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icon-prod.png": {
 		"fileType": 32768,
@@ -195,7 +195,7 @@
 		"outputAbbreviatedPath": "\/img\/icon-prod.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icon-rub.png": {
 		"fileType": 32768,
@@ -206,7 +206,7 @@
 		"outputAbbreviatedPath": "\/img\/icon-rub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icon-star.png": {
 		"fileType": 32768,
@@ -217,7 +217,7 @@
 		"outputAbbreviatedPath": "\/img\/icon-star.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icon-time.png": {
 		"fileType": 32768,
@@ -228,7 +228,7 @@
 		"outputAbbreviatedPath": "\/img\/icon-time.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/img-one.jpg": {
 		"fileType": 16384,
@@ -239,7 +239,7 @@
 		"outputAbbreviatedPath": "\/img\/img-one.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -344,6 +344,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.maskedinput.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.maskedinput-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/validate-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/validate-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/validate-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
