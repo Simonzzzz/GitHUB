@@ -4,4 +4,5 @@
 	"editor.renderWhitespace": true,
 	"editor.formatOnType": true,
 	"editor.wrappingIndent": "indent"
+	"editor.wrappingColumn": 150
 }
