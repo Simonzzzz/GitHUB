@@ -115,7 +115,18 @@ body textarea:required:valid
 .__tile3
 	background-image: url('/img/info-tile3.png')
 
+.__tile4
+	background-image: url('/img/info-tile4.png')
+	min-height: 690px
+
+.__tile5
+	background-image: url('/img/info-tile5.png')
+
+.__tile6
+	background-image: url('/img/info-tile6.png')
+
 .info-tile_tx
+	width: 100%
 	font-size: em(16px)
 	font-weight: 400
 	line-height: 22px
@@ -144,3 +155,68 @@ body textarea:required:valid
 
 .__active
 	border-bottom: 5px solid $project
+
+// galery
+#thumbs, #img
+	float : left
+
+#thumbs
+	width : 98px
+
+.gal
+	margin-top: 24px
+
+.gal-min_images
+	margin-bottom: 7px
+	display: inline-block
+	cursor: pointer
+	&:hover
+		opacity: 0.8
+
+.gal_images
+	position: relative
+
+.gal-action
+	position: absolute
+	bottom: -55px
+	background-color: $project
+	width: 100%
+	padding: 0 30px
+
+.gal_tx
+	display: inline-block
+	color: $clear
+
+.gal_btn
+	color: $project
+	background-color: $clear
+	border-radius: 3px
+	box-shadow: (0 1px 2px rgba(0, 0, 0, 0.25))
+	padding: 4px 26px
+	text-transform: uppercase
+	text-decoration: none
+	&:hover
+		text-decoration: none
+		color: $project
+		opacity: 0.9
+
+.tabs-cnt
+	padding: 40px 0
+
+.tabs-cnt_lst
+	display: inline-block
+	vertical-align: top
+
+.tabs-cnt_tx
+	margin: 0
+
+.tabs-cnt_i
+	list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAYAAABiS3YzAAABvElEQVQ4T72UzUtUURjGf+9cRdJFCxvx447prn8giHYKgYGJCxchmN3Z5cKlIBFtWtQ6hDbe8Rot0kWhiCt1E0rQrn9AZm4qZKH4gUNz7xv33rSxGefqMHRWB855fud9nvOeI9Ry2N/uku5Yl5oxHXcIT98j8kyws1ojcB5oQMSuETQwrCCyRJc5+Bea7rx6FO+2bpIvbEZO5TNJo5cH7cfVQx23GV8/oXoLBAy5waj5I8SfZXqVShe3Gtn1VlC9E/AC5xTpS6Fvv7cxkty+8PLm1ODQ/QjaD+wD18O9F0KdXAc+GygZ0qnnZcGZ3DSqaSCPkbiP569Whs5kLXzsKPfEEyzzzTmwnX0BPAXxEXmIZc6Xi6/Uvp17BToRCg2GGE19CMGZ7BjKVHSgjGOlXofz0z6vmKmqMOM6qI4gnGDU3cPzWlDmQROIvMRKTZ45uBQ02P1F6/nqLqDah7CHci16LThYnY//iSR6kRUrPVXM7jTh/VpD9faf5l6m2xygRwrVQwPl3HaSw8I6wk+M+l4etR6VdMSl7RcrZ3e6qfMPGG7fLdtiVUHjvrD/D42rKG697O3HieLWi6C/AdoizfOSZM5ZAAAAAElFTkSuQmCC')
+
+.tabs-cnt_link
+	color: $project
+	text-transform: uppercase
+	display: block
+	float: right
+	&:hover
+		color: $project

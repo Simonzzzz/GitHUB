@@ -63,4 +63,17 @@ $(function() {
 	}).eq(0).addClass('__active');
 	$(".__js-tabs-cnt").eq(0).show();
 
+	// galery
+	var thumbs = $('#thumbs img');
+	var img = $('#img img');
+
+	var imgs = Array();
+	imgs[0] = "/img/private-gal-1.png";
+	imgs[1] = "http://lorempixel.com/400/200/sports/2/";
+
+	thumbs.click(function(){
+	 var num = $(this).index();
+	 img.attr("src", imgs[num]);
+	});
+
 });
