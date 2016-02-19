@@ -43,7 +43,7 @@
 /* Use it for non-touch hover action */
 .owl-theme .owl-controls.clickable .owl-buttons div:hover{
 	filter: Alpha(Opacity=100);/*IE7 fix*/
-	opacity: 1;
+	opacity: 0.8;
 	text-decoration: none;
 }
 
