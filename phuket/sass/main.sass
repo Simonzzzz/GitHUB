@@ -127,11 +127,20 @@ body textarea:required:valid
 	margin: 0
 // *info-tile
 
+// tabs
+.tabs-cnt
+	display: none
+	position: relative
+	z-index: 100
+	width: 100%
+	min-height: 400px
 
-// owl-slider
-#owl-demo .item img
-		display: block
-		width: 100%
-		height: auto
-// *owl-slider
-		
+.tabs_i
+	display: inline-block
+	font-size: em(18px)
+	cursor: pointer
+	margin-right: 24px
+	border-bottom: 5px solid #f4f4f4
+
+.__active
+	border-bottom: 5px solid $project

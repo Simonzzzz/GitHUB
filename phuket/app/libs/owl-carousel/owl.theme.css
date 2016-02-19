@@ -1,5 +1,5 @@
 /*
-* 	Owl Carousel Owl Demo Theme 
+* 	Owl Carousel Owl Demo Theme
 *	v1.3.3
 */
 
@@ -15,15 +15,29 @@
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
-	margin: 5px;
 	padding: 3px 10px;
 	font-size: 12px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
-	background: #869791;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
-	opacity: 0.5;
+	opacity: 0.8;
+}
+
+.owl-prev{
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+	left: 0;
+	width: 50px;
+	height: 70px;
+	background: url('/img/owl-prev.png') center no-repeat;
+}
+.owl-next{
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+	right: 0;
+	width: 50px;
+	height: 70px;
+	background: url('/img/owl-next.png') center no-repeat;
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
