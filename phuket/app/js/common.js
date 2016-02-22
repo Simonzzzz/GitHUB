@@ -14,6 +14,12 @@ $(function() {
 			nav: true,
 			navText : ["",""],
 	});
+		$("#owl-2").owlCarousel({
+				items: 1,
+				loop: true,
+				nav: true,
+				navText : ["",""],
+		});
 
 	//E-mail Ajax Send
 	//Documentation & Example: https://github.com/agragregra/uniMail

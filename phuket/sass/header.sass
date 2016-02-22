@@ -6,20 +6,47 @@ body
 	min-width: 320px
 	position: relative
 	line-height: 1.6
-	font-family: "RobotoRegular", sans-serif
+	font-family: "OpenSans", sans-serif
 	overflow-x: hidden
 
 .hidden
 	display: none
 
 .top-header
-	height: 50px
+	padding: 12px 0
 	background: $top-header
 
+.top-header_lk
+	margin-right: 70px
+
+
+.top-header_btn
+	font-size: em(15px)
+	padding: 5px 20px
+	background-color: $project
+	text-transform: uppercase
+	color: $clear
+	box-shadow: (0 1px 2px rgba(0, 0, 0, 0.34))
+	border-radius: 2px
+	float: right
+
+.nav
+	text-align: right
+	margin-top: 32px
+
 .bottom-header
-	height: 120px
+	padding: 30px 0
 	background: $clear
 
+.bottom-header_lk
+	display: inline-block
+	vertical-align: middle
+	margin-left: 33px
+	color: $top-header
+	text-decoration: none
+	&:hover
+		color: $project
+		text-decoration: none
 
 // owl-slider
 #owl-demo .item img

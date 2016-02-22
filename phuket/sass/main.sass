@@ -5,19 +5,19 @@
 @import "app/libs/animate/animate.sass"
 
 *::-webkit-input-placeholder
-	color: #666
+	color: $project
 	opacity: 1
 
 *:-moz-placeholder
-	color: #666
+	color: $project
 	opacity: 1
 
 *::-moz-placeholder
-	color: #666
+	color: $project
 	opacity: 1
 
 *:-ms-input-placeholder
-	color: #666
+	color: $project
 	opacity: 1
 
 body input:focus:required:invalid,
@@ -220,3 +220,177 @@ body textarea:required:valid
 	float: right
 	&:hover
 		color: $project
+
+// form-contacts
+.contacts
+	box-shadow: (0 1px 4px rgba(0, 0, 0, 0.5))
+	margin-top: 100px
+	text-align: center
+	padding: 40px
+	margin-bottom: 100px
+
+.contacts_tx
+	line-height: 30px
+	margin-bottom: 30px
+	margin-top: 0
+
+.contacts-form_it
+	background-color: $grey
+	background-repeat: no-repeat
+	background-position: 14px 50%
+	padding: 8px 0 8px 65px
+	width: 310px
+	line-height: 50px
+	height: 50px
+	border: 0
+	color: $project
+	font-size: em(18px)
+	outline: none
+	margin-bottom: 30px
+	margin-right: 37px
+	&:last-child
+		margin-right: 0
+
+.it-name
+	background-image: url('/img/it-name.svg')
+
+.it-email
+	background-image: url('/img/it-email.svg')
+
+.it-tel
+	background-image: url('/img/it-tel.svg')
+
+.it-button
+	display: block
+	width: 240px
+	padding: 10px 55px
+	font-size: em(22px)
+	color: $clear
+	border-radius: 3px
+	background-color: $project
+	box-shadow: (0 1px 2px rgba(0, 0, 0, 0.5))
+	border: 0
+	margin-left: auto
+	margin-right: auto
+	text-transform: uppercase
+	&:hover
+		opacity: 0.8
+
+// rewiev
+.review
+	background-image: url('/img/review-bg.jpg')
+	background-size: cover
+	background-repeat: no-repeat
+	min-height: 558px
+	position: relative
+
+.slider-2_h
+	text-align: left
+
+.revew-content
+	padding: 40px 30px 30px 30px
+	box-shadow: (0 1px 4px rgba(0, 0, 0, 0.5))
+	border-bottom: 5px solid $project
+	background-color: $clear
+	margin-bottom: 30px
+
+.item-2
+	padding: 5px
+
+.agent_image
+	background: url('/img/agent.jpg') no-repeat center
+	background-size: cover
+	width: 100%
+	height: 360px
+	border-bottom: 5px solid $project
+
+.agent_h
+	margin-top: 0
+	margin-bottom: 0
+	text-align: left
+
+.agent_tx
+	margin-top: 30px
+	margin-bottom: 30px
+
+// info-box
+.info-box
+	background-color: $grey
+	padding-top: 60px
+
+.info-box_h
+	margin-top: 0
+
+.info-box_i
+	position: relative
+	margin-bottom: 60px
+
+.info-box-numb
+	position: absolute
+	top: -34px
+	left: 0
+	display: inline-block
+
+.info-box_icon
+	float: left
+	margin-right: 25px
+
+
+// bottom form
+.contacts-form-bottom_it
+	background-color: $grey
+	background-repeat: no-repeat
+	background-position: 14px 50%
+	padding: 8px 0 8px 65px
+	line-height: 50px
+	height: 50px
+	border: 0
+	color: $project
+	font-size: em(18px)
+	outline: none
+	margin-bottom: 30px
+	margin-right: 37px
+	&:last-child
+		margin-right: 0
+
+.contacts-form-bottom_textarea
+	background-color: $grey
+	padding: 10px 20px 0 65px
+	outline: none
+	border: 0
+	background-image: url('/img/it-message.svg')
+	background-repeat: no-repeat
+	background-position: 14px 8px
+	display: block
+	width: 100%
+	margin-bottom: 30px
+	color: $project
+
+.contacts-form-bottom_button
+	float: right
+
+// footer
+.footer-top
+	background-color: $project
+	color: $clear
+	text-align: center
+	padding: 20px 0
+
+.footer
+	background-color: $top-header
+	color: $clear
+
+.footer-icon
+	margin-right: 15px
+
+.footer_lk
+	color: $clear
+	text-decoration: none
+	&:hover
+		color: $clear
+
+.footer-social-ic
+	text-align: right
+
+.footer-ic
+	margin-right: 12px

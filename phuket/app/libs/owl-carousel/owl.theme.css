@@ -21,7 +21,7 @@
 	opacity: 0.8;
 }
 
-.owl-prev{
+#owl-demo .owl-prev{
 	position: absolute;
 	top: 50%;
 	margin-top: -35px;
@@ -30,7 +30,7 @@
 	height: 70px;
 	background: url('/img/owl-prev.png') center no-repeat;
 }
-.owl-next{
+#owl-demo .owl-next{
 	position: absolute;
 	top: 50%;
 	margin-top: -35px;
@@ -38,6 +38,23 @@
 	width: 50px;
 	height: 70px;
 	background: url('/img/owl-next.png') center no-repeat;
+}
+
+#owl-2 .owl-prev{
+	position: absolute;
+	top: -80px;
+	right: 50px;
+	width: 44px;
+	height: 44px;
+	background: url('/img/owl-2-prev.png') center no-repeat;
+}
+#owl-2 .owl-next{
+	position: absolute;
+	top: -80px;
+	right: 0;
+	width: 44px;
+	height: 44px;
+	background: url('/img/owl-2-next.png') center no-repeat;
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
