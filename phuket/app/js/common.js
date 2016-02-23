@@ -72,4 +72,26 @@ $(function() {
 	 img.attr("src", imgs[num]);
 	});
 
+
+	// якоря
+	$('.section-1').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#section-1').offset().top }, 1000);
+  e.preventDefault();
+	});
+	$('.section-2').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#section-2').offset().top }, 1000);
+  e.preventDefault();
+	});
+	$('.section-3').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#section-3').offset().top }, 1000);
+  e.preventDefault();
+	});
+	$('.section-4').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#section-4').offset().top }, 1000);
+  e.preventDefault();
+	});
+	$('.section-5').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#section-5').offset().top }, 1000);
+  e.preventDefault();
+	});
 });
