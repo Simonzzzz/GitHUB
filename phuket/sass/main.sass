@@ -20,6 +20,20 @@
 	color: $project
 	opacity: 1
 
+
+.it:focus::-webkit-input-placeholder
+	opacity: 0
+	transition: opacity 0.3s ease
+.it:focus::-moz-placeholder
+	opacity: 0
+	transition: opacity 0.3s ease
+.it:focus:-moz-placeholder
+	opacity: 0
+	transition: opacity 0.3s ease
+.it:focus:-ms-input-placeholder
+	opacity: 0
+	transition: opacity 0.3s ease
+
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
 	color: #666
@@ -373,6 +387,7 @@ body textarea:required:valid
 
 .contacts-form-bottom_button
 	float: right
+	outline: none
 
 // footer
 .footer-top
@@ -399,3 +414,6 @@ body textarea:required:valid
 
 .footer-ic
 	margin-right: 12px
+
+.warnings
+	color: $alert

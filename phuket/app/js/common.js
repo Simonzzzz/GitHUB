@@ -26,11 +26,11 @@ $(function() {
 	$("form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
-			type: "POST",
+			type: "GET",
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-			alert("Thank you!");
+			alert("Заявка отправлена!");
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
@@ -94,4 +94,8 @@ $(function() {
   $('html,body').stop().animate({ scrollTop: $('#section-5').offset().top }, 1000);
   e.preventDefault();
 	});
+
+
+
+
 });
