@@ -91,26 +91,78 @@ $(function() {
 	 img2.attr("src", imgs2[num]);
 	});
 
+	// galery3
+	var thumbs3 = $('#thumbs3 img');
+	var img3 = $('#img3 img');
+
+	var imgs3 = Array();
+	imgs3[0] = "/img/kamala-gal-1.png";
+	imgs3[1] = "/img/kamala-gal-2.png";
+	imgs3[2] = "/img/kamala-gal-3.png";
+	imgs3[3] = "/img/kamala-gal-4.png";
+	imgs3[4] = "/img/kamala-gal-5.png";
+
+	thumbs3.click(function(){
+	 var num = $(this).index();
+	 img3.attr("src", imgs3[num]);
+	});
+
+	// galery4
+	var thumbs4 = $('#thumbs4 img');
+	var img4 = $('#img4 img');
+
+	var imgs4 = Array();
+	imgs4[0] = "/img/seafront-gal-1.png";
+	imgs4[1] = "/img/seafront-gal-2.png";
+	imgs4[2] = "/img/seafront-gal-3.png";
+	imgs4[3] = "/img/seafront-gal-4.png";
+	imgs4[4] = "/img/seafront-gal-5.png";
+
+	thumbs4.click(function(){
+	 var num = $(this).index();
+	 img4.attr("src", imgs4[num]);
+	});
+
+	// galery5
+	var thumbs5 = $('#thumbs5 img');
+	var img5 = $('#img5 img');
+
+	var imgs5 = Array();
+	imgs5[0] = "/img/heights-gal-1.png";
+	imgs5[1] = "/img/heights-gal-2.png";
+	imgs5[2] = "/img/heights-gal-3.png";
+	imgs5[3] = "/img/heights-gal-4.png";
+	imgs5[4] = "/img/heights-gal-5.png";
+
+	thumbs5.click(function(){
+	var num = $(this).index();
+	img5.attr("src", imgs5[num]);
+	});
+
 	// якоря
 	$('.section-1').on('click', function(e){
-  $('html,body').stop().animate({ scrollTop: $('#section-1').offset().top }, 1000);
-  e.preventDefault();
+	$('html,body').stop().animate({ scrollTop: $('#section-1').offset().top }, 1000);
+	e.preventDefault();
 	});
+
 	$('.section-2').on('click', function(e){
-  $('html,body').stop().animate({ scrollTop: $('#section-2').offset().top }, 1000);
-  e.preventDefault();
+	$('html,body').stop().animate({ scrollTop: $('#section-2').offset().top }, 1000);
+	e.preventDefault();
 	});
+
 	$('.section-3').on('click', function(e){
-  $('html,body').stop().animate({ scrollTop: $('#section-3').offset().top }, 1000);
-  e.preventDefault();
+	$('html,body').stop().animate({ scrollTop: $('#section-3').offset().top }, 1000);
+	e.preventDefault();
 	});
+
 	$('.section-4').on('click', function(e){
-  $('html,body').stop().animate({ scrollTop: $('#section-4').offset().top }, 1000);
-  e.preventDefault();
+	$('html,body').stop().animate({ scrollTop: $('#section-4').offset().top }, 1000);
+	e.preventDefault();
 	});
+	
 	$('.section-5').on('click', function(e){
-  $('html,body').stop().animate({ scrollTop: $('#section-5').offset().top }, 1000);
-  e.preventDefault();
+	$('html,body').stop().animate({ scrollTop: $('#section-5').offset().top }, 1000);
+	e.preventDefault();
 	});
 
 
