@@ -46,13 +46,16 @@ body textarea:required:valid
 
 //ALWAYS END
 @import "media"
+
+
+
 // tile
 .tile
-	padding: 40px 18px 0 18px
+	padding: 40px 18px 25px 18px
 	background-color: $clear
 	box-shadow: (0 1px 4px rgba(0, 0, 0, 0.5))
 	border-bottom: 5px solid $project
-	min-height: 405px
+	min-height: 430px
 
 .tile-icon
 	text-align: center
@@ -109,7 +112,7 @@ body textarea:required:valid
 	&:hover
 		text-decoration: none
 		color: $clear
-		background-color: darken($project, 10%)
+		background-color: darken($project, 5%)
 
 .offer-tile_image
 	border-left: 5px solid $project
@@ -209,19 +212,20 @@ body textarea:required:valid
 
 .gal_images
 	position: relative
+	box-shadow: (0 1px 4px rgba(0, 0, 0, 0.5))
 
 .gal-action
-	position: absolute
-	bottom: -55px
+	position: relative
+	bottom: 0
 	background-color: $project
 	width: 100%
-	padding: 11px 30px
+	padding: 13px 30px
 
 .gal_tx
 	display: inline-block
 	color: $clear
 	margin: 0
-	vertical-align: middle
+	vertical-align: sub
 
 .gal_btn
 	color: $project
@@ -242,18 +246,21 @@ body textarea:required:valid
 	&:hover
 		text-decoration: none
 		color: $clear
-		background-color: darken($project, 10%)
+		background-color: darken($project, 5%)
 
 .tabs-cnt
-	padding: 40px 0
+	padding: 20px 0
 
 .tabs-cnt_lst
 	display: inline-block
 	vertical-align: top
+	margin-top: 12px
 
 .tabs-cnt_h
 	color: $project
-	font-weight: bold
+	font-weight: 400
+	font-size: em(20px)
+	margin-bottom: 0
 
 .tabs-cnt_tx
 	margin: 0
@@ -265,6 +272,7 @@ body textarea:required:valid
 	color: $project
 	text-transform: uppercase
 	font-weight: bold
+	font-size: em(14px)
 	display: block
 	float: right
 	&:hover
@@ -273,7 +281,7 @@ body textarea:required:valid
 // form-contacts
 .contacts
 	box-shadow: (0 1px 4px rgba(0, 0, 0, 0.5))
-	margin-top: 100px
+	margin-top: 70px
 	text-align: center
 	padding: 40px
 	margin-bottom: 100px
@@ -282,6 +290,7 @@ body textarea:required:valid
 	line-height: 30px
 	margin-bottom: 30px
 	margin-top: 0
+	font-size: em(22px)
 
 .contacts-form_it
 	background-color: $grey
@@ -297,8 +306,6 @@ body textarea:required:valid
 	outline: none
 	margin-bottom: 30px
 	margin-right: 37px
-	&:last-child
-		margin-right: 0
 
 .it-name
 	background-image: url('/img/it-name.svg')
@@ -309,12 +316,16 @@ body textarea:required:valid
 .it-tel
 	background-image: url('/img/it-tel.svg')
 
+.__mr-none
+	margin-right: 0
+
 .it-button
 	display: block
 	width: 240px
-	padding: 10px 55px
+	padding: 7px 55px
 	font-size: em(22px)
 	color: $clear
+	outline: none
 	border-radius: 3px
 	background-color: $project
 	box-shadow: (0 1px 2px rgba(0, 0, 0, 0.5))
@@ -328,21 +339,22 @@ body textarea:required:valid
 	-o-transition: 0.3s
 	transition: 0.3s
 	&:hover
-		background-color: darken($project, 10%)
+		background-color: darken($project, 5%)
 
 // rewiev
 .review
 	background-image: url('/img/review-bg.jpg')
 	background-size: cover
 	background-repeat: no-repeat
-	min-height: 558px
+	min-height: 534px
 	position: relative
 
 .slider-2_h
 	text-align: left
+	margin-top: 60px
 
 .revew-content
-	padding: 40px 30px 30px 30px
+	padding: 20px 30px 30px 30px
 	box-shadow: (0 1px 4px rgba(0, 0, 0, 0.5))
 	border-bottom: 5px solid $project
 	background-color: $clear
@@ -370,7 +382,7 @@ body textarea:required:valid
 	font-size: em(18px)
 	position: relative
 	margin-left: 128px
-	margin-top: 14px
+	margin-top: 0
 	&:before
 		content: ""
 		position: absolute
@@ -378,7 +390,7 @@ body textarea:required:valid
 		height: 15px
 		background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAPCAYAAAAyPTUwAAABo0lEQVQoU4WRsU8TcRTHP+8qBSKDxDSx9a7uLiY6OujAAgMSSBoNiL0b6oCLEV0YDAMLwbjAQIe7EmggDRJ00MXFwRFH/4C7n61JY2TACMXez9wVWggh/KaX7/v83nvf94TjV67eoNF8CfpyW0P+kEjMM5nxI03iRCkYR+sBenpneJSqtuH1eob9v3OIfCZvlYVVdYt/4XPsbD6GKjrJgcrSbfrkpBFrnl/ikvFW8IIy9E1h9+9S+nGXMHyBITuE+g6G8Yb89a94v6/A3pLg+dvY2ZG4guu/55qVY0gO+Ki7+RlUcLIPjqpvC26whWONXgi7wZbg+iv0dU2TS9fPHaNSS7F3uBDNfB+4h23Nnm8weA18aa3OC95hSIEn5q/Ojo+iFXWVUBexrbEW7FZvI82H2NarM7AXzKMTGziZby04/qBckokFJtLf29pa7SaN5jSO6XQuGEWr9TSH+0VscxgRjdaCpz7Q1VPgcap2Go7PrgqECI65jKueYqDJm8XjTp0xIiWqVlKbGLJIqJ9Fpk56OA1HmTVl0tCfSMogE6Y6Cf8HwWuoMGDOMzgAAAAASUVORK5CYII=') no-repeat
 		top: 6px
-		left: -16px
+		left: -21px
 
 .item-2
 	padding: 5px
@@ -436,6 +448,7 @@ body textarea:required:valid
 	font-size: em(18px)
 	outline: none
 	margin-bottom: 30px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25)
 	margin-right: 37px
 	&:last-child
 		margin-right: 0
@@ -446,6 +459,7 @@ body textarea:required:valid
 	outline: none
 	border: 0
 	background-image: url('/img/it-message.svg')
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25)
 	background-repeat: no-repeat
 	background-position: 14px 8px
 	display: block
@@ -467,6 +481,7 @@ body textarea:required:valid
 .footer
 	background-color: $top-header
 	color: $clear
+	font-size: em(14px)
 
 .social-icon
 	margin-right: 15px
@@ -474,6 +489,7 @@ body textarea:required:valid
 .footer_lk
 	color: $clear
 	text-decoration: none
+	font-size: em(22px)
 	&:hover
 		color: $clear
 

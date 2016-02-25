@@ -46,7 +46,14 @@
 	right: 50px;
 	width: 44px;
 	height: 44px;
-	background: url('/img/owl-2-prev.png') center no-repeat;
+	background-image: url('/img/owl-2-prev.png');
+	background-color: #009ee2;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+#owl-2 .owl-prev:hover{
+	background-color: #008cc9;
 }
 #owl-2 .owl-next{
 	position: absolute;
@@ -54,7 +61,14 @@
 	right: 0;
 	width: 44px;
 	height: 44px;
-	background: url('/img/owl-2-next.png') center no-repeat;
+	background-image: url('/img/owl-2-next.png');
+	background-color: #009ee2;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+#owl-2 .owl-next:hover{
+	background-color: #008cc9;
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
