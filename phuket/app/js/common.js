@@ -59,19 +59,37 @@ $(function() {
 	}).eq(0).addClass('__active');
 	$(".__js-tabs-cnt").eq(0).show();
 
-	// galery
-	var thumbs = $('#thumbs img');
-	var img = $('#img img');
+	// galery1
+	var thumbs1 = $('#thumbs1 img');
+	var img1 = $('#img1 img');
 
-	var imgs = Array();
-	imgs[0] = "/img/private-gal-1.png";
-	imgs[1] = "http://lorempixel.com/400/200/sports/2/";
+	var imgs1 = Array();
+	imgs1[0] = "/img/private-gal-1.png";
+	imgs1[1] = "/img/private-gal-2.png";
+	imgs1[2] = "/img/private-gal-3.png";
+	imgs1[3] = "/img/private-gal-4.png";
+	imgs1[4] = "/img/private-gal-5.png";
 
-	thumbs.click(function(){
+	thumbs1.click(function(){
 	 var num = $(this).index();
-	 img.attr("src", imgs[num]);
+	 img1.attr("src", imgs1[num]);
 	});
 
+	// galery2
+	var thumbs2 = $('#thumbs2 img');
+	var img2 = $('#img2 img');
+
+	var imgs2 = Array();
+	imgs2[0] = "/img/villa-gal-1.png";
+	imgs2[1] = "/img/villa-gal-2.png";
+	imgs2[2] = "/img/villa-gal-3.png";
+	imgs2[3] = "/img/villa-gal-4.png";
+	imgs2[4] = "/img/villa-gal-5.png";
+
+	thumbs2.click(function(){
+	 var num = $(this).index();
+	 img2.attr("src", imgs2[num]);
+	});
 
 	// якоря
 	$('.section-1').on('click', function(e){
