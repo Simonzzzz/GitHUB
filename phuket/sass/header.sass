@@ -18,6 +18,7 @@ body
 
 .top-header_lk
 	margin-right: 70px
+	vertical-align: sub
 
 
 .top-header_btn
@@ -29,6 +30,15 @@ body
 	box-shadow: (0 1px 2px rgba(0, 0, 0, 0.34))
 	border-radius: 2px
 	float: right
+	-webkit-transition: 0.3s
+	-moz-transition: 0.3s
+	-ms-transition: 0.3s
+	-o-transition: 0.3s
+	transition: 0.3s
+	&:hover
+		background-color: darken($project, 10%)
+		text-decoration: none
+		color: $clear
 
 .nav
 	text-align: right
@@ -44,6 +54,12 @@ body
 	margin-left: 33px
 	color: $top-header
 	text-decoration: none
+	-webkit-transition: 0.3s
+	-moz-transition: 0.3s
+	-ms-transition: 0.3s
+	-o-transition: 0.3s
+	transition: 0.3s
+	
 	&:hover
 		color: $project
 		text-decoration: none

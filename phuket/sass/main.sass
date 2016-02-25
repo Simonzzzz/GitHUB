@@ -101,8 +101,15 @@ body textarea:required:valid
 	border-radius: 3px
 	display: inline-block
 	box-shadow: (0 1px 2px rgba(0, 0, 0, 0.5))
+	-webkit-transition: 0.3s
+	-moz-transition: 0.3s
+	-ms-transition: 0.3s
+	-o-transition: 0.3s
+	transition: 0.3s
 	&:hover
 		text-decoration: none
+		color: $clear
+		background-color: darken($project, 10%)
 
 .offer-tile_image
 	border-left: 5px solid $project
@@ -166,6 +173,13 @@ body textarea:required:valid
 	cursor: pointer
 	margin-right: 24px
 	border-bottom: 5px solid #f4f4f4
+	-webkit-transition: 0.3s
+	-moz-transition: 0.3s
+	-ms-transition: 0.3s
+	-o-transition: 0.3s
+	transition: 0.3s
+	&:hover
+		border-bottom: 5px solid $project
 
 .__active
 	border-bottom: 5px solid $project
@@ -184,6 +198,12 @@ body textarea:required:valid
 	margin-bottom: 7px
 	display: inline-block
 	cursor: pointer
+	-webkit-transition: 0.3s
+	-moz-transition: 0.3s
+	-ms-transition: 0.3s
+	-o-transition: 0.3s
+	transition: 0.3s
+	
 	&:hover
 		opacity: 0.8
 
@@ -213,10 +233,16 @@ body textarea:required:valid
 	display: inline-block
 	float: right
 	text-decoration: none
+	-webkit-transition: 0.3s
+	-moz-transition: 0.3s
+	-ms-transition: 0.3s
+	-o-transition: 0.3s
+	transition: 0.3s
+	
 	&:hover
 		text-decoration: none
-		color: $project
-		opacity: 0.9
+		color: $clear
+		background-color: darken($project, 10%)
 
 .tabs-cnt
 	padding: 40px 0
@@ -296,8 +322,13 @@ body textarea:required:valid
 	margin-left: auto
 	margin-right: auto
 	text-transform: uppercase
+	-webkit-transition: 0.3s
+	-moz-transition: 0.3s
+	-ms-transition: 0.3s
+	-o-transition: 0.3s
+	transition: 0.3s
 	&:hover
-		opacity: 0.8
+		background-color: darken($project, 10%)
 
 // rewiev
 .review
@@ -448,6 +479,7 @@ body textarea:required:valid
 
 .footer-social-ic
 	text-align: right
+	vertical-align: sub
 
 .footer-ic
 	margin-right: 12px
