@@ -44,10 +44,79 @@ body textarea:required:valid
 //Custom Styles Here
 
 
-//ALWAYS END
-@import "media"
 
 
+// gamburger
+$color-backgroundheader: #232830
+$color-backgroundglobalheader: #191c21
+
+
+#primary
+	padding: 0
+	margin: 0
+	clear: both
+	li
+		a
+			background: #1c97de
+			color: #fff
+			display: block
+			text-align: center
+			text-decoration: none
+			padding: 0 20px
+			height: 70px
+			line-height: 70px
+			box-shadow: inset 0 1px 0 $color-backgroundheader
+			text-transform: uppercase
+			font-size: 12px
+			&:hover, &:focus
+				background: darken(#1c97de, 5%)
+	.js &
+		li
+			a
+				max-height: 0
+				overflow: hidden
+				transition: max-height 0.2s ease-out
+		&.active
+			li
+				a
+					max-height: 70px
+
+.logo-mobile
+	display: block
+	float: left
+	padding: 20px
+	color: white
+	text-decoration: none
+	font-weight: 500
+	letter-spacing: 1px
+
+.menu-link
+	padding: 28px 20px
+	display: block
+	float: right
+	span
+		display: block
+		height: 2px
+		width: 32px
+		background-color: #000
+		margin: 5px 0
+		transition: transform 0.1s linear
+	&:hover, &:focus
+		.line-1
+			transform: translateY(-2px)
+		.line-3
+			transform: translateY(2px)
+	&.active
+		span
+			transition: transform 0.2s ease-out, opacity 0.1s linear
+		.line-1
+			transform: translateY(7px) translateX(0) rotate(45deg)
+		.line-2
+			opacity: 0
+		.line-3
+			transform: translateY(-7px) translateX(0) rotate(-45deg)
+
+// *gamburger
 
 // tile
 .tile
@@ -117,6 +186,7 @@ body textarea:required:valid
 .offer-tile_image
 	border-left: 5px solid $project
 	background: url('/img/offer-image.jpg') 100% no-repeat
+	background-size: cover
 	width: 100%
 	height: 273px
 // *offer-tile
@@ -206,7 +276,7 @@ body textarea:required:valid
 	-ms-transition: 0.3s
 	-o-transition: 0.3s
 	transition: 0.3s
-	
+
 	&:hover
 		opacity: 0.8
 
@@ -242,7 +312,7 @@ body textarea:required:valid
 	-ms-transition: 0.3s
 	-o-transition: 0.3s
 	transition: 0.3s
-	
+
 	&:hover
 		text-decoration: none
 		color: $clear
@@ -402,6 +472,9 @@ body textarea:required:valid
 	height: 360px
 	border-bottom: 5px solid $project
 
+.agent-mob_h
+	display: none
+
 .agent_h
 	margin-top: 0
 	margin-bottom: 0
@@ -424,6 +497,9 @@ body textarea:required:valid
 	position: relative
 	margin-bottom: 44px
 
+.info-box_tx
+	padding-left: 56px
+
 .info-box-numb
 	position: absolute
 	top: -34px
@@ -432,7 +508,6 @@ body textarea:required:valid
 
 .info-box_icon
 	float: left
-	margin-right: 25px
 
 
 // bottom form
@@ -534,3 +609,12 @@ body textarea:required:valid
 	height: 6px
 	top: 22px
 	right: -6px
+
+.copy-mob
+	display: none
+
+.__dn
+	display: none
+
+//ALWAYS END
+@import "media"

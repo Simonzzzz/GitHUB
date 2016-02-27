@@ -21,6 +21,17 @@ $(function() {
 				navText : ["",""],
 		});
 
+// burger
+  var menu = $('#primary');
+  var menulink = $('.menu-link');
+
+  menulink.click(function() {
+    menulink.toggleClass('active');
+    menu.toggleClass('active');
+    return false;
+  });
+
+
 	//E-mail Ajax Send
 	//Documentation & Example: https://github.com/agragregra/uniMail
 	$("form").submit(function() { //Change
@@ -159,7 +170,7 @@ $(function() {
 	$('html,body').stop().animate({ scrollTop: $('#section-4').offset().top }, 1000);
 	e.preventDefault();
 	});
-	
+
 	$('.section-5').on('click', function(e){
 	$('html,body').stop().animate({ scrollTop: $('#section-5').offset().top }, 1000);
 	e.preventDefault();
