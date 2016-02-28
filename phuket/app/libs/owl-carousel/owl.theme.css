@@ -28,7 +28,7 @@
 	left: 0;
 	width: 50px;
 	height: 70px;
-	background: url('/img/owl-prev.png') center no-repeat;
+	background: url('/rent/img/owl-prev.png') center no-repeat;
 }
 #owl-demo .owl-next{
 	position: absolute;
@@ -37,7 +37,7 @@
 	right: 0;
 	width: 50px;
 	height: 70px;
-	background: url('/img/owl-next.png') center no-repeat;
+	background: url('/rent/img/owl-next.png') center no-repeat;
 }
 
 #owl-2 .owl-prev{
@@ -46,7 +46,7 @@
 	right: 50px;
 	width: 44px;
 	height: 44px;
-	background-image: url('/img/owl-2-prev.png');
+	background-image: url('/rent/img/owl-2-prev.png');
 	background-color: #009ee2;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -61,7 +61,7 @@
 	right: 0;
 	width: 44px;
 	height: 44px;
-	background-image: url('/img/owl-2-next.png');
+	background-image: url('/rent/img/owl-2-next.png');
 	background-color: #009ee2;
 	background-repeat: no-repeat;
 	background-position: center;

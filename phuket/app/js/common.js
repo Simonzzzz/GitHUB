@@ -75,11 +75,11 @@ $(function() {
 	var img1 = $('#img1 img');
 
 	var imgs1 = Array();
-	imgs1[0] = "/img/private-gal-1.png";
-	imgs1[1] = "/img/private-gal-2.png";
-	imgs1[2] = "/img/private-gal-3.png";
-	imgs1[3] = "/img/private-gal-4.png";
-	imgs1[4] = "/img/private-gal-5.png";
+	imgs1[0] = "img/private-gal-1.png";
+	imgs1[1] = "img/private-gal-2.png";
+	imgs1[2] = "img/private-gal-3.png";
+	imgs1[3] = "img/private-gal-4.png";
+	imgs1[4] = "img/private-gal-5.png";
 
 	thumbs1.click(function(){
 	 var num = $(this).index();
@@ -91,11 +91,11 @@ $(function() {
 	var img2 = $('#img2 img');
 
 	var imgs2 = Array();
-	imgs2[0] = "/img/villa-gal-1.png";
-	imgs2[1] = "/img/villa-gal-2.png";
-	imgs2[2] = "/img/villa-gal-3.png";
-	imgs2[3] = "/img/villa-gal-4.png";
-	imgs2[4] = "/img/villa-gal-5.png";
+	imgs2[0] = "img/villa-gal-1.png";
+	imgs2[1] = "img/villa-gal-2.png";
+	imgs2[2] = "img/villa-gal-3.png";
+	imgs2[3] = "img/villa-gal-4.png";
+	imgs2[4] = "img/villa-gal-5.png";
 
 	thumbs2.click(function(){
 	 var num = $(this).index();
@@ -107,11 +107,11 @@ $(function() {
 	var img3 = $('#img3 img');
 
 	var imgs3 = Array();
-	imgs3[0] = "/img/kamala-gal-1.png";
-	imgs3[1] = "/img/kamala-gal-2.png";
-	imgs3[2] = "/img/kamala-gal-3.png";
-	imgs3[3] = "/img/kamala-gal-4.png";
-	imgs3[4] = "/img/kamala-gal-5.png";
+	imgs3[0] = "img/kamala-gal-1.png";
+	imgs3[1] = "img/kamala-gal-2.png";
+	imgs3[2] = "img/kamala-gal-3.png";
+	imgs3[3] = "img/kamala-gal-4.png";
+	imgs3[4] = "img/kamala-gal-5.png";
 
 	thumbs3.click(function(){
 	 var num = $(this).index();
@@ -123,11 +123,11 @@ $(function() {
 	var img4 = $('#img4 img');
 
 	var imgs4 = Array();
-	imgs4[0] = "/img/seafront-gal-1.png";
-	imgs4[1] = "/img/seafront-gal-2.png";
-	imgs4[2] = "/img/seafront-gal-3.png";
-	imgs4[3] = "/img/seafront-gal-4.png";
-	imgs4[4] = "/img/seafront-gal-5.png";
+	imgs4[0] = "img/seafront-gal-1.png";
+	imgs4[1] = "img/seafront-gal-2.png";
+	imgs4[2] = "img/seafront-gal-3.png";
+	imgs4[3] = "img/seafront-gal-4.png";
+	imgs4[4] = "img/seafront-gal-5.png";
 
 	thumbs4.click(function(){
 	 var num = $(this).index();
@@ -139,11 +139,11 @@ $(function() {
 	var img5 = $('#img5 img');
 
 	var imgs5 = Array();
-	imgs5[0] = "/img/heights-gal-1.png";
-	imgs5[1] = "/img/heights-gal-2.png";
-	imgs5[2] = "/img/heights-gal-3.png";
-	imgs5[3] = "/img/heights-gal-4.png";
-	imgs5[4] = "/img/heights-gal-5.png";
+	imgs5[0] = "img/heights-gal-1.png";
+	imgs5[1] = "img/heights-gal-2.png";
+	imgs5[2] = "img/heights-gal-3.png";
+	imgs5[3] = "img/heights-gal-4.png";
+	imgs5[4] = "img/heights-gal-5.png";
 
 	thumbs5.click(function(){
 	var num = $(this).index();
