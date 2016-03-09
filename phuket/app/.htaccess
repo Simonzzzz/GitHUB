@@ -20,6 +20,9 @@ ExpiresByType image/png "access plus 2592000 seconds"
 ExpiresByType image/gif "access plus 2592000 seconds"
 ExpiresByType image/svg+xml "access plus 2592000 seconds"
 
+# Set the default handler.
+DirectoryIndex index.html
+
 # Cache Fonts
 ExpiresByType application/vnd.ms-fontobject "access plus 2592000 seconds"
 ExpiresByType application/x-font-ttf "access plus 2592000 seconds"
