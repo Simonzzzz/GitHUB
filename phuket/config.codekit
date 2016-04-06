@@ -29,6 +29,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/en\/common.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/en\/common.js",
+		"outputAbbreviatedPath": "\/app\/en\/min\/common-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/en\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/en\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/img\/agent.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -36,17 +56,6 @@
 		"initialSize": 26423,
 		"inputAbbreviatedPath": "\/app\/img\/agent.jpg",
 		"outputAbbreviatedPath": "\/app\/img\/agent.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/app\/img\/bg-slider1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 433415,
-		"inputAbbreviatedPath": "\/app\/img\/bg-slider1.jpg",
-		"outputAbbreviatedPath": "\/app\/img\/bg-slider1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -644,6 +653,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/app\/img\/rent_villa06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 418264,
+		"inputAbbreviatedPath": "\/app\/img\/rent_villa06.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/rent_villa06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/app\/img\/review-bg.jpg": {
 		"fileType": 16384,

@@ -12,6 +12,7 @@ $(function() {
 			items: 1,
 			loop: true,
 			nav: true,
+			autoplay: true,
 			navText : ["",""],
 	});
 		$("#owl-2").owlCarousel({
