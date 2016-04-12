@@ -7,6 +7,13 @@ $(function() {
 		});
 	};
 
+	$('.btn-call, .call2').click(function(event) {
+		$('#exampleModal2').arcticmodal();
+	});
+	$('.schema-button, .call3').click(function(event) {
+		$('#exampleModal').arcticmodal();
+	});
+
 	//E-mail Ajax Send
 	//Documentation & Example: https://github.com/agragregra/uniMail
 	$("form").submit(function() { //Change
