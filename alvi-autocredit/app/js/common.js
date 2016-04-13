@@ -14,20 +14,19 @@ $(function() {
 		$('#exampleModal').arcticmodal();
 	});
 
+	$(".phone").mask("+7 (999) 999-9999");
 	//E-mail Ajax Send
 	//Documentation & Example: https://github.com/agragregra/uniMail
-	$("form").submit(function() { //Change
-		var th = $(this);
+	$("form").submit(function() {
 		$.ajax({
-			type: "POST",
-			url: "mail.php", //Change
-			data: th.serialize()
+			type: "GET",
+			url: "mail.php",
+			data: $("form").serialize()
 		}).done(function() {
-			alert("Thank you!");
+			alert("Спасибо за заявку!");
 			setTimeout(function() {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
+				$.arcticmodal('close');
+			}, 500);
 		});
 		return false;
 	});

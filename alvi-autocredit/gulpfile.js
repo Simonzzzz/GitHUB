@@ -35,7 +35,8 @@ gulp.task('scripts', function() {
 		'./app/libs/jquery.arcticmodal-0.3/jquery.arcticmodal-0.3.min.js',
 		'./app/libs/waypoints/waypoints.min.js',
 		'./app/libs/animate/animate-css.js',
-		'./app/libs/validate.js'
+		'./app/libs/validate.js',
+		'./app/libs/jquery.maskedinput.js'
 		])
 		.pipe(concat('libs.js'))
 		// .pipe(uglify()) //Minify libs.js

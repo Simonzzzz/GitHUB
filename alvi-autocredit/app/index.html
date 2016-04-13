@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Алви</title>
+	<title>Алви | Финансовые решения </title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -116,8 +116,8 @@
 					<p class="form4-txt _align-center">Заполните форму, и наш специалист свяжется<br>с вами в ближайшее время</p>
 					<input class="form4-input" type="text" name="name" value="" placeholder="Ваше имя">
 					<input class="form4-input phone" type="text" name="phone" value="" placeholder="Телефон">
-					<input class="form4-input" type="text" name="email" value="" placeholder="E-mail">
-					<input class="form4-button" type="button" name="button" value="узнать подробности">
+					<input class="form4-input" type="text" name="mail_to" value="" placeholder="E-mail">
+					<input class="form4-button" type="submit" name="button" value="узнать подробности">
 				</form>
 			</div>
 		</div>
@@ -193,18 +193,21 @@
 		</div>
 	</div>
 
-	<div class="section9">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="info">
-						<p class="info-txt">Мы находимся по адресу:</p>
-						<p class="info-txt-bold">Ул. Марата, дом 25<br>8 (812) 309 76 75</p>
-					</div>
-				</div>
+	<section class="map">
+	<div class="row"><!-- Карта -->
+		<div class="contacts-page">
+			<div class="info">
+				<p class="info-txt">Мы находимся по адресу:</p>
+				<p class="info-txt-bold">Ул. Марата, дом 25<br>8 (812) 309 76 75</p>
+			</div>
+			<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" tppabs="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+			<div id="map-wrapper">
+				<div id="map_canvas" style="height: 657px"></div>
 			</div>
 		</div>
+		<script type="text/javascript" src="libs/ya.js"></script>
 	</div>
+</section>
 
 	<div class="footer">
 		<div class="container">
@@ -231,8 +234,8 @@
 				<p class="txt-modal">Заполните форму, и наш специалист свяжется<br>с вами в ближайшее время</p>
 				<input class="formModal-input" type="text" name="name" value="" placeholder="Ваше имя">
 				<input class="formModal-input phone" type="text" name="phone" value="" placeholder="Телефон">
-				<input class="formModal-input" type="text" name="e-mail" value="" placeholder="E-mail">
-				<input class="formModal-button" type="button" name="button" value="отправить">
+				<input class="formModal-input" type="text" name="mail_to" value="" placeholder="E-mail">
+				<input class="formModal-button" type="submit" name="button" value="отправить">
 			</form>
 		</div>
 	</div>
@@ -245,7 +248,7 @@
 				<p class="txt-modal">Заполните форму, и наш специалист свяжется<br>с вами в ближайшее время</p>
 				<input class="formModal-input" type="text" name="name" value="" placeholder="Ваше имя">
 				<input class="formModal-input phone" type="text" name="phone" value="" placeholder="Телефон">
-				<input class="formModal-button" type="button" name="button" value="отправить">
+				<input class="formModal-button" type="submit" name="button" value="отправить">
 			</form>
 		</div>
 	</div>

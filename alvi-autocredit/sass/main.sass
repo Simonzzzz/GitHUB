@@ -329,20 +329,18 @@ p
 	font-size: 26px
 	line-height: 28px
 
-.section9
-	background: url('../img/map.jpg') no-repeat center
-	background-size: 100%
-	min-height: 657px
 
 .info
 	background: url("../img/bg-adress.png") no-repeat top
-	width: 562px
 	height: 270px
-	margin-left: auto
-	margin-right: auto
 	text-align: center
-	padding-top: 48px
 	color: #fff
+	position: absolute
+	left: 0
+	right: 0
+	top: 0
+	z-index: 10
+	padding-top: 40px
 
 .info-txt
 	margin-top: 0
@@ -357,7 +355,7 @@ p
 	line-height: 36px
 
 .formModal
-	padding-top: 68px
+	padding-top: 36px
 
 .formModal-txt
 	color: #fff
@@ -423,6 +421,29 @@ p
 		background-color: $project-color-blue
 		border: 2px solid $project-color-blue
 		color: #fff
+
+
+/*map*/
+.map
+	height: 657px
+	position: relative
+	min-width: 1000px
+	padding-left: 15px
+	padding-right: 15px
+
+/*yandex map*/
+.contacts-page
+	color: #929393
+	font-size: 22px
+	position: relative
+
+
+.contacts-page #map_canvas
+	height: 597px
+	background: #f8f8f8
+	position: relative
+
+/*map*/
 
 .footer
 	padding-top: 54px
