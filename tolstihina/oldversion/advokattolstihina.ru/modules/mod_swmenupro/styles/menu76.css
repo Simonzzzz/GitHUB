@@ -1,0 +1,186 @@
+.ddmx76{
+border:0px none #FFFFFF !important ; 
+}
+.ddmx76 a.item1,
+.ddmx76 a.item1:hover,
+.ddmx76 a.item1-active,
+.ddmx76 a.item1-active:hover {
+ padding: 8px 0px 5px 0px  !important ; 
+ top: 0px !important ; 
+ left: 0px; 
+ font-size: 18px !important ; 
+ font-family: 'Times New Roman', Times, serif !important ; 
+ text-align: center !important ; 
+ font-weight: normal !important ; 
+ color: #FFFFFF !important ; 
+ text-decoration: none !important ; 
+ display: block; 
+ white-space: nowrap; 
+ position: relative; 
+ width:100px; 
+ height:36px; 
+}
+.ddmx76 td.item11 {
+ padding:0 !important ; 
+ border-top: 0px none #124170 !important ; 
+ border-left: 0px none #124170 !important ; 
+ border-bottom: 0px none #124170;
+ border-right: 0 !important ; 
+ white-space: nowrap !important ; 
+ width:100px; 
+ height:36px; 
+}
+.ddmx76 td.item11-last {
+ padding:0 !important ; 
+ border: 0px none #124170 !important ; 
+ white-space: nowrap; 
+ width:100px; 
+ height:36px; 
+}
+.ddmx76 td.item11-acton {
+ padding:0 !important ; 
+ border-top: 0px none #124170 !important ; 
+ border-left: 0px none #124170 !important ; 
+ white-space: nowrap; 
+ border-bottom: 0px none #124170;
+}
+.ddmx76 td.item11-acton-last {
+ border: 0px none #124170 !important ; 
+}
+.ddmx76 .item11-acton-last a.item1,
+.ddmx76 .item11-acton a.item1,
+.ddmx76 .item11-acton-last a:hover,
+.ddmx76 .item11-acton a:hover,
+.ddmx76 .item11 a:hover,
+.ddmx76 .item11-last a:hover,
+.ddmx76 a.item1-active,
+.ddmx76 a.item1-active:hover {
+background-image: URL("http://advokat.vlivmaster.ru//modules/mod_swmenupro/images/444.png") ;
+ color: #FFFFFF !important ; 
+}
+.ddmx76 a.item2,
+.ddmx76 a.item2:hover,
+.ddmx76 a.item2-active,
+.ddmx76 a.item2-active:hover {
+ padding: 5px 5px 5px 5px !important ; 
+ font-size: 12px !important ; 
+ font-family: Arial, Helvetica, sans-serif !important ; 
+ text-align: left !important ; 
+ font-weight: bold !important ; 
+ text-decoration: none !important ; 
+ display: block; 
+ white-space: nowrap; 
+ opacity:0.85; 
+}
+.ddmx76 a.item2 {
+ background-color: #FFF2AB !important ; 
+ color: #E18246 !important ; 
+ border-top: 0px none #124170 !important ; 
+ border-left: 0px none #124170 !important ; 
+ border-right: 0px none #124170 !important ; 
+}
+.ddmx76 a.item2-last {
+ background-color: #FFF2AB !important ; 
+ color: #E18246 !important ; 
+ border-bottom: 0px none #124170 !important ; 
+ z-index:500; 
+}
+.ddmx76 a.item2:hover,
+.ddmx76 a.item2-active,
+.ddmx76 a.item2-active:hover {
+ background-color: #FFFFCC !important ; 
+ color: #FF9900 !important ; 
+ border-top: 0px none #124170 !important ; 
+ border-left: 0px none #124170 !important ; 
+ border-right: 0px none #124170 !important ; 
+}
+.ddmx76 .section {
+ border: 0px none #FFFFFF !important ; 
+ position: absolute; 
+ visibility: hidden; 
+ display: block; 
+ z-index: -1; 
+}
+.ddmx76 .subsection a{
+ width:100px; 
+ white-space:normal !important; 
+}
+.ddmx76frame {
+ border: 0px none #FFFFFF !important ; 
+}
+.ddmx76 .item11-acton-last .item1 img.seq2,
+.ddmx76 .item11-acton .item1 img.seq2,
+.ddmx76 img.seq1
+{
+ display:    inline; 
+}
+.ddmx76 a.item1:hover img.seq2,
+.ddmx76 a.item1-active img.seq2,
+.ddmx76 a.item1-active:hover img.seq2,
+.ddmx76 a.item2:hover img.seq2,
+.ddmx76 a.item2-active img.seq2,
+.ddmx76 a.item2-active:hover img.seq2
+{
+ display:    inline; 
+}
+.ddmx76 img.seq2,
+.ddmx76 .item11-acton-last .item1 img.seq1,
+.ddmx76 .item11-acton .item1 img.seq1,
+.ddmx76 a.item2:hover img.seq1,
+.ddmx76 a.item2-active img.seq1,
+.ddmx76 a.item2-active:hover img.seq1,
+.ddmx76 a.item1:hover img.seq1,
+.ddmx76 a.item1-active img.seq1,
+.ddmx76 a.item1-active:hover img.seq1
+{
+ display:   none; 
+}
+* html .ddmx76 td { position: relative; } /* ie 5.0 fix */
+.ddmx76 #menu76-0 {
+text-decoration: underline !important
+}
+.ddmx76 td.item11-acton-last #menu76-0,
+.ddmx76 td.item11-acton #menu76-0,
+.ddmx76 a.item1-active#menu76-0,
+.ddmx76 #menu76-0:hover {
+;text-decoration: underline !important
+}
+.ddmx76 #menu76-1 {
+text-decoration: underline !important
+}
+.ddmx76 td.item11-acton-last #menu76-1,
+.ddmx76 td.item11-acton #menu76-1,
+.ddmx76 a.item1-active#menu76-1,
+.ddmx76 #menu76-1:hover {
+;text-decoration: underline !important
+}
+.ddmx76 #menu76-2 {
+text-decoration: underline !important
+}
+.ddmx76 td.item11-acton-last #menu76-2,
+.ddmx76 td.item11-acton #menu76-2,
+.ddmx76 a.item1-active#menu76-2,
+.ddmx76 #menu76-2:hover {
+;text-decoration: underline !important
+}
+.ddmx76 #menu76-3 {
+text-decoration: underline !important
+}
+.ddmx76 td.item11-acton-last #menu76-3,
+.ddmx76 td.item11-acton #menu76-3,
+.ddmx76 a.item1-active#menu76-3,
+.ddmx76 #menu76-3:hover {
+;text-decoration: underline !important
+}
+.ddmx76 #menu76-4 {
+text-decoration: underline !important;
+
+}
+.ddmx76 td.item11-acton-last #menu76-4,
+.ddmx76 td.item11-acton #menu76-4,
+.ddmx76 a.item1-active#menu76-4,
+.ddmx76 #menu76-4:hover {
+;text-decoration: underline !important;
+
+
+}

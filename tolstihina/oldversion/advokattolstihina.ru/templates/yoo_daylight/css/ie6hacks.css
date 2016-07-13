@@ -1,0 +1,415 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+/* link fix for transparent background image */
+div.mod-transparent div.module div.module-2,
+div.mod-color div.module div.module-2 {
+	position: relative;
+}
+
+/*
+ * layout
+ */
+
+div#date {
+	line-height: 160%;
+}
+ 
+div#styleswitcher a {
+	cursor: pointer;  
+}
+
+div#banner {
+	right: -135px;
+	width: 120px;
+}
+
+div#middle .background {
+	 
+	height: 200px;  
+}
+
+div#footer {
+	height: 50px;  
+	zoom: 1;  
+}
+
+/*
+ * menus
+ */
+
+div#middle ul.menu li.level1 {
+	zoom: 1;  
+}
+
+div#menu li.fancy div.fancy-container div.fancy-l {
+	overflow: hidden;
+}
+
+div#menu li.fancy div.fancy-container div.fancy-r {
+	overflow: hidden;
+}
+
+div#menu li.fancy {
+	width: 0px;
+}
+
+/*
+ * modules
+ */
+
+div.module {
+	zoom: 1;  
+}
+
+ 
+#toolbar div.module {
+	width: 0px;
+}
+
+#toolbar div.mod-blank div.module {
+	overflow: visible;
+}
+
+/* blank */
+div.mod-blank div.module {
+	/* zoom: 1; */  
+}
+
+/* transwhite */
+div.mod-transwhite div.module {
+	zoom: 1;  
+}
+
+div.mod-transwhite div.module-t {
+	overflow: hidden;
+}
+
+div.mod-transwhite div.module-l {
+	padding: 0px 10px 0px 10px;
+	position: relative;
+	overflow: hidden;  
+	zoom: 1;  
+	background: none;
+}
+
+div.mod-transwhite div.module-r {
+	padding: 0px;
+	background: none;
+}
+
+div.mod-transwhite div.module-l-ie6 {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 10px;
+	height: 99999px;
+	background: url(../images/module_transwhite_border.png) 0 0 repeat-y; /* ie6png:scale */
+}
+
+div.mod-transwhite div.module-r-ie6 {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 10px;
+	height: 99999px;
+	background: url(../images/module_transwhite_border.png) 0 0 repeat-y; /* ie6png:scale */
+}
+
+div.separator div.mod-transwhite div.module-r-ie6 { right: -1px; }
+div#contenttop div.mod-transwhite div.module-r-ie6 { right: -1px; }
+div#contenttop div.separator div.mod-transwhite div.module-r-ie6 { right: 0px; }
+div#contentbottom div.mod-transwhite div.module-r-ie6 { right: -1px; }
+div#contentbottom div.separator div.mod-transwhite div.module-r-ie6 { right: 0px; }
+
+div.mod-transwhite div.module-m {
+	overflow: hidden;  
+	zoom: 1;  
+}
+
+div.mod-transwhite div.module-b {
+	overflow: hidden;
+}
+
+/* transblack */
+div.mod-transblack div.module {
+	zoom: 1;  
+}
+
+div.mod-transblack div.module-t {
+	overflow: hidden;
+}
+
+div.mod-transblack div.module-l {
+	padding: 0px 10px 0px 10px;
+	position: relative;
+	overflow: hidden;  
+	zoom: 1;  
+	background: none;
+}
+
+div.mod-transblack div.module-r {
+	padding: 0px;
+	background: none;
+}
+
+div.mod-transblack div.module-l-ie6 {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 10px;
+	height: 99999px;
+	background: url(../images/module_transblack_border.png) 0 0 repeat-y; /* ie6png:scale */
+}
+
+div.mod-transblack div.module-r-ie6 {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 10px;
+	height: 99999px;
+	background: url(../images/module_transblack_border.png) 0 0 repeat-y; /* ie6png:scale */
+}
+
+div.separator div.mod-transblack div.module-r-ie6 { right: -1px; }
+div#contenttop div.mod-transblack div.module-r-ie6 { right: -1px; }
+div#contenttop div.separator div.mod-transblack div.module-r-ie6 { right: 0px; }
+div#contentbottom div.mod-transblack div.module-r-ie6 { right: -1px; }
+div#contentbottom div.separator div.mod-transblack div.module-r-ie6 { right: 0px; }
+
+div.mod-transblack div.module-m {
+	overflow: hidden;  
+	zoom: 1;  
+}
+
+div.mod-transblack div.module-b {
+	overflow: hidden;
+}
+
+/* dotted */
+div.mod-dotted h3.module {
+	height: 15px;
+}
+
+/* paper */
+div.mod-paper div.module {
+	zoom: 1;  
+}
+
+div.mod-paper div.module-l {
+	padding: 0px 1px 0px 1px;
+	position: relative;
+	overflow: hidden;  
+	zoom: 1;  
+	background: none;
+}
+
+div.mod-paper div.module-r {
+	padding: 0px;
+	background: none;
+}
+
+div.mod-paper div.module-l-ie6 {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1px;
+	height: 99999px;
+	background: url(../images/module_paper_border.png) 0 0 repeat-y; /* ie6png:scale */
+}
+
+div.mod-paper div.module-r-ie6 {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 1px;
+	height: 99999px;
+	background: url(../images/module_paper_border.png) 0 0 repeat-y; /* ie6png:scale */
+}
+
+div.mod-paper div.module-m {
+	overflow: hidden;  
+	zoom: 1;  
+}
+
+div.mod-paper div.module-container-b {
+	zoom: 1;  
+}
+
+div.mod-paper div.module-b {
+	overflow: hidden;
+}
+
+div.mod-paper div.module-bl {
+	overflow: hidden;
+}
+
+div.mod-paper div.module-br {
+	overflow: hidden;
+}
+
+/* postit */
+div.mod-postit div.module {
+	zoom: 1;  
+}
+
+div.mod-postit div.module-l {
+	padding: 0px 1px 0px 1px;
+	position: relative;
+	overflow: hidden;  
+	zoom: 1;  
+	background: none;
+}
+
+div.mod-postit div.module-r {
+	padding: 0px;
+	background: none;
+}
+
+div.mod-postit div.module-l-ie6 {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1px;
+	height: 99999px;
+	background: url(../images/module_postit_border.png) 0 0 repeat-y; /* ie6png:scale */
+}
+
+div.mod-postit div.module-r-ie6 {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 1px;
+	height: 99999px;
+	background: url(../images/module_postit_border.png) 0 0 repeat-y; /* ie6png:scale */
+}
+
+div.mod-postit div.module-m {
+	overflow: hidden;  
+	zoom: 1;  
+}
+
+div.mod-postit div.module-container-b {
+	zoom: 1;  
+}
+
+div.mod-postit div.module-b {
+	overflow: hidden;
+}
+
+div.mod-postit div.module-bl {
+	overflow: hidden;
+}
+
+div.mod-postit div.module-br {
+	overflow: hidden;
+}
+
+/* polaroid */
+div.mod-polaroid div.module {
+	zoom: 1;  
+}
+
+div.mod-polaroid div.badge-tape {
+	top: 0px;
+}
+
+div.mod-polaroid div.module-3 {
+	zoom: 1;
+}
+
+div.mod-polaroid div.module-container-b {
+	zoom: 1;  
+}
+
+div.mod-polaroid div.module-b {
+	overflow: hidden;
+}
+
+div.mod-polaroid div.module-bl {
+	overflow: hidden;
+}
+
+div.mod-polaroid div.module-br {
+	overflow: hidden;
+}
+
+div.mod-polaroid div.badge-new { top: 13px; }
+div.mod-polaroid div.badge-top { top: 13px; }
+div.mod-polaroid div.badge-pick { top: 13px; }
+
+
+/*
+ * joomla
+ */
+ 
+div#yoo-search input {
+	width: 88px;
+}
+
+
+/* link fix for transparent background image */
+a.readmore, a.readon {
+	cursor: pointer;
+}
+
+/*
+ * typography
+ */
+ 
+ol.disc {
+	padding: 0px 0px 0px 32px;
+}
+
+ul.arrow li { background: url(../images/list_arrow_ie6.png) 0 0 no-repeat; }
+ul.arrow-big li { background: url(../images/list_arrow_big_ie6.png) 0 0 no-repeat; }
+ul.checkbox li { background: url(../images/list_checkbox_ie6.png) 0 0 no-repeat; }
+ul.checkbox-big li { background: url(../images/list_checkbox_big_ie6.png) 0 0 no-repeat; }
+ul.check li { background: url(../images/list_check_ie6.png) 0 0 no-repeat; }
+ul.check-big li { background: url(../images/list_check_big_ie6.png) 0 0 no-repeat; }
+ul.star li { background: url(../images/list_star_ie6.png) 0 0 no-repeat; }
+ul.star-big li { background: url(../images/list_star_big_ie6.png) 0 0 no-repeat; }
+ul.plus li { background: url(../images/list_plus_ie6.png) 0 0 no-repeat; }
+ul.plus-big li { background: url(../images/list_plus_big_ie6.png) 0 0 no-repeat; }
+
+ol.disc {
+	background: url(../images/list_disc_ie6.png) 0 0 repeat-y;
+}
+
+ol.disc-big {
+	background: url(../images/list_disc_big_ie6.png) 0 0 repeat-y;
+}
+
+blockquote.quotation {
+	background: url(../images/blockquote_start_ie6.png) 0 0 no-repeat;
+}
+
+blockquote.quotation p {
+	background: url(../images/blockquote_end_ie6.png) 100% 100% no-repeat;
+}
+
+blockquote.quotation-big {
+	background: url(../images/blockquote_big_start_ie6.png) 0 0 no-repeat;
+}
+
+blockquote.quotation-big p {
+	background: url(../images/blockquote_big_end_ie6.png) 100% 100% no-repeat;
+}
+
+/*
+ * extensions
+ */
+
+

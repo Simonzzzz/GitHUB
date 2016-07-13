@@ -34,7 +34,7 @@ for (var i = 0, l = myPoints.length; i < l; i++) {
 
 			//Большая красная метка
 				img_src = '../img/map-marker-big.png';
-				image_size = [29, 47];
+				image_size = [46, 68];
 				image_offset = [-15, -50];
 		} else {
 

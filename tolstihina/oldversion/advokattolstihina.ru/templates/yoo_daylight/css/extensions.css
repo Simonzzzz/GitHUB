@@ -1,0 +1,21 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+#left #form-login fieldset {
+	border: none;
+}
+
+/*
+ * YOOsearch
+ */
+
+#page div.default div.yoo-search div.resultbox {
+	position: absolute;
+	right: -5px;
+	top: 22px;
+	z-index: 20;
+}

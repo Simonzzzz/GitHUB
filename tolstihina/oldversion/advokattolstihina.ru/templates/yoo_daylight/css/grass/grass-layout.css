@@ -1,0 +1,26 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+/*
+ * Page
+ */
+ 
+body.noon {
+	background: #ffffff;
+}
+
+body.evening {
+	background: #ffffff;
+}
+
+body.night {
+	background: #ffffff;
+}
+
+body.morning {
+	background: #ffffff;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="roknavmenu">
+	<name>RokNavMenu - Boost</name>
+	<author>RocketTheme, LLC</author>
+	<creationDate>January 4, 2010</creationDate>
+	<authorEmail>@EMAIL@</authorEmail>
+	<authorUrl>http://www.rockettheme.com</authorUrl>
+	<copyright>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</copyright>
+	<license>LGPL</license>
+	<version>1.7.10</version>
+	<description></description>
+	<files>
+		<filename plugin="boost">boost.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_roknavmenu_boost.ini</language>
+	</languages>
+</install>

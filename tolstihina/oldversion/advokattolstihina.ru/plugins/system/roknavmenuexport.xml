@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - RokNavMenu Export</name>
+	<author>RocketTheme, LLC</author>
+	<creationDate>December 19, 2009</creationDate>
+	<copyright>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</copyright>
+	<license>LGPL</license>
+	<authorEmail>support@rockettheme.com</authorEmail>
+	<authorUrl>http://www.rockettheme.com</authorUrl>
+	<version>1.3</version>
+	<description>Plugin to export RokNavMenu html for non Joomla Applications</description>
+	<files>
+		<filename plugin="roknavmenuexport">roknavmenuexport.php</filename>
+		<folder>roknavmenuexport</folder>
+	</files>
+	<languages>
+   		<language tag="en-GB">language/en-GB/en-GB.plg_system_roknavmenuexport.ini</language>
+	</languages>
+	<params>
+		<param name='highlighted_menu_item' type='menuitem' label='LABEL.SELECT_MENU_ITEM' description='DESC.SELECT_MENU_ITEM' state="1"/>		
+		<param name='header_file' type='text' default='joomla_menu_header.inc' label='LABEL.HEADER_FILE' descritpion='DESC.HEADER_FILE' size='25'/>
+		<param name='guest_menu_file' type='text' default='guest_joomla_menu.inc' label='LABEL.GUEST_MENU_FILE' descritpion='DESC.GUEST_MENU_FILE' size='25'/>
+		<param name='reg_menu_file' type='text' default='reg_joomla_menu.inc' label='LABEL.REG_MENU_FILE' descritpion='DESC.REG_MENU_FILE' size='25'/>
+		<param name="url_type" type="list" default="relative" label="URL Type" description="Select whether you want full or relative urls output for links.">
+			<option value="relative">relative</option>
+			<option value="full">full</option>
+		</param>
+	</params>
+</install>

@@ -1,0 +1,12 @@
+/*
+// "AllVideos" Plugin by JoomlaWorks for Joomla! 1.5.x - Version 2.5.4
+// Copyright (c) 2006 - 2009 JoomlaWorks Ltd. All rights reserved.
+// Released under the GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+// More info at http://www.joomlaworks.gr
+// Designed and developed by the JoomlaWorks team
+// *** Last update: March 23rd, 2008 ***
+*/
+
+.allvideos {display:block;text-align:center;clear:both;}
+.allvideos_player {display:block;text-align:center;padding:0;margin:4px auto;border:none;background:none;}
+.allvideos_player span {display:block;}

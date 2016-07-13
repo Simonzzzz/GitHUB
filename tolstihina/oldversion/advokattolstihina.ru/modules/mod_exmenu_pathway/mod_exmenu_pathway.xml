@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="4.5.2">
+	<name>Extended Menu Pathway</name>
+	<author>Daniel Ecer</author>
+	<creationDate>May 2005</creationDate>
+	<copyright>(C) 2005 Daniel Ecer</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail></authorEmail>
+	<authorUrl>de.siteof.de</authorUrl>
+	<version>1.0.1</version>
+	<description>Displays a pathway (in combination with extended menu).</description>
+	<description>
+	<![CDATA[
+	This Extended Menu Pathway module displays a pathway (in combination with extended menu or standalone).
+	Please visit <a href="http://de.siteof.de/extended-menu-pathway.html">de.siteof.de</a> for more details.<br />
+	To use this module don't forget to publish it and follow the install instructions.<br />
+	<br />
+	(If you like this module please consider a <a href="http://de.siteof.de/donate.html">donation</a>.)
+	]]>
+	</description>
+	<files>
+		<filename module="mod_exmenu_pathway">mod_exmenu_pathway.php</filename>
+	</files>
+	<params>
+		<param name="class_sfx" type="text" default="" label="Menu Class Suffix" description="A suffix to be applied to the css class of the menu items" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="pathway_module_position" type="text" default="" label="Module Position" description="Module Position of Pathway to use... mosPathway is called otherwise." />
+		<param name="parse_access_key" type="list" default="3" label="Parse Access Key" description="Defines how to parse/strip the access key markup. (The Extended Menu module need to be installed to use this parameter)">
+			<option value="0">None</option>
+			<option value="1">Parse</option>
+			<option value="2">Strip</option>
+			<option value="3">Strip Markup</option>
+			<option value="4">Strip And Emphase</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="pathway_style" type="list" default="unchanged" label="Pathway Style" description="The pathway style">
+			<option value="unchanged">Unchanged (further parameters will have no effect)</option>
+			<option value="">---</option>
+			<option value="list_flat">Flat List</option>
+			<option value="">---</option>
+			<option value="default_html">Default HTML (not recommended)</option>
+		</param>
+		<param name="hide_first" type="radio" default="0" label="Hide First Entry" description="The first menu item will not be rendered. (This is useful when setting the first entry to what your home page should be, but you dont want it to show.)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</mosinstall>

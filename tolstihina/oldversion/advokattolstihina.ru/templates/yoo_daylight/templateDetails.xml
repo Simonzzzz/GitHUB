@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>yoo_daylight</name>
+	<version>1.5.0</version>
+	<creationDate>November 2008</creationDate>
+	<author>YOOtheme</author>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+    <copyright>Copyright (C) 2007 - 2008 YOOtheme Ltd. &amp; Co. KG</copyright>
+    <license></license>
+	<description><![CDATA[
+<img src="../templates/yoo_daylight/template_thumbnail.png" align="right" style="margin: 0px 0px 10px 10px;" />
+
+<div style="font-size: 13px;">
+Daylight is the December 2008 template of the YOOtheme club.
+<br /><br /><span style="color: #ff0000;"><b>NOTE: It is not free or public. This template is for members of the YOOtheme club only.</b></span>
+<br /><br />YOOtheme website<br /><a href="http://www.yootheme.com/">http://www.yootheme.com</a>.
+<br /><br />YOOtheme demo server<br /><a href="http://demo.yootheme.com/">http://demo.yootheme.com</a>.
+<br /><br />YOOtools website<br /><a href="http://www.yootools.com/">http://www.yootools.com</a>.
+<br /><br />Help for all YOOtheme products: YOOtorials website<br /><a href="http://www.yootorials.com/">http://www.yootorials.com</a>.
+</div>
+
+<h3 style="clear: both;">Changelog</h3>
+
+<b>1.5.0</b><br />
+<div style="margin: 0px 0px 0px 10px;">
+- Initial Release<br />
+</div>
+<br /><br />
+
+]]></description>
+	<files>
+		<filename>component.php</filename>
+		<filename>raw.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>apple_touch_icon.png</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>html/com_search/index.html</filename>
+		<filename>html/com_search/search/default.php</filename>
+		<filename>html/com_search/search/index.html</filename>
+		<filename>html/com_search/search/yoosearch.php</filename>
+		<filename>html/index.html</filename>
+		<filename>html/modules.php</filename>
+		<filename>html/mod_breadcrumbs/default.php</filename>
+		<filename>html/mod_breadcrumbs/index.html</filename>
+		<filename>html/mod_mainmenu/default.php</filename>
+		<filename>html/mod_mainmenu/index.html</filename>
+		<filename>html/mod_mainmenu/yoomenu.php</filename>
+		<filename>html/mod_search/default.php</filename>
+		<filename>html/mod_search/index.html</filename>
+		<filename>lib/index.html</filename>
+		<filename>lib/js/addons/accordionmenu.js</filename>
+		<filename>lib/js/addons/base.js</filename>
+		<filename>lib/js/addons/dropdownmenu.js</filename>
+		<filename>lib/js/addons/fancymenu.js</filename>
+		<filename>lib/js/addons/ie6fix.js</filename>
+		<filename>lib/js/addons/index.html</filename>
+		<filename>lib/js/addons/slidermenu.js</filename>
+		<filename>lib/js/index.html</filename>
+		<filename>lib/js/mootools/index.html</filename>
+		<filename>lib/js/mootools/mootools-release-1.11.js</filename>
+		<filename>lib/js/mootools.js.php</filename>
+		<filename>lib/js/template.js.php</filename>
+		<filename>lib/js/x.gif</filename>
+		<filename>lib/js/yoo_ie6fix.js</filename>
+		<filename>lib/js/yoo_tools.js</filename>
+		<filename>lib/php/index.html</filename>
+		<filename>lib/php/yoolayout.php</filename>
+		<filename>lib/php/yootools.php</filename>
+		<filename>css/custom.css</filename>
+		<filename>css/editor.css</filename>
+		<filename>css/extensions.css</filename>
+		<filename>css/grass/grass-layout.css</filename>
+		<filename>css/grass/index.html</filename>
+		<filename>css/ie6hacks.css</filename>
+		<filename>css/ie7hacks.css</filename>
+		<filename>css/iehacks.css</filename>
+		<filename>css/index.html</filename>
+		<filename>css/joomla.css</filename>
+		<filename>css/layout.css</filename>
+		<filename>css/menus.css</filename>
+		<filename>css/modules.css</filename>
+		<filename>css/popups.css</filename>
+		<filename>css/reset.css</filename>
+		<filename>css/template.css</filename>
+		<filename>css/template.css.php</filename>
+		<filename>css/typography.css</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/article_separator.png</filename>
+		<filename>images/blockquote_big_end.png</filename>
+		<filename>images/blockquote_big_end_ie6.png</filename>
+		<filename>images/blockquote_big_start.png</filename>
+		<filename>images/blockquote_big_start_ie6.png</filename>
+		<filename>images/blockquote_end.png</filename>
+		<filename>images/blockquote_end_ie6.png</filename>
+		<filename>images/blockquote_start.png</filename>
+		<filename>images/blockquote_start_ie6.png</filename>
+		<filename>images/div_alert.png</filename>
+		<filename>images/div_download.png</filename>
+		<filename>images/div_info.png</filename>
+		<filename>images/div_tip.png</filename>
+		<filename>images/emailButton.png</filename>
+		<filename>images/em_directory.png</filename>
+		<filename>images/em_file.png</filename>
+		<filename>images/footer_anchor.png</filename>
+		<filename>images/footer_anchor_white.png</filename>
+		<filename>images/grass/index.html</filename>
+		<filename>images/grass/page_bg_evening.jpg</filename>
+		<filename>images/grass/page_bg_morning.jpg</filename>
+		<filename>images/grass/page_bg_night.jpg</filename>
+		<filename>images/grass/page_bg_noon.jpg</filename>
+		<filename>images/header_bg.png</filename>
+		<filename>images/header_bg_evening.png</filename>
+		<filename>images/header_bg_morning.png</filename>
+		<filename>images/header_bg_night.png</filename>
+		<filename>images/index.html</filename>
+		<filename>images/link_external.png</filename>
+		<filename>images/list_arrow.png</filename>
+		<filename>images/list_arrow_big.png</filename>
+		<filename>images/list_arrow_big_ie6.png</filename>
+		<filename>images/list_arrow_ie6.png</filename>
+		<filename>images/list_check.png</filename>
+		<filename>images/list_checkbox.png</filename>
+		<filename>images/list_checkbox_big.png</filename>
+		<filename>images/list_checkbox_big_ie6.png</filename>
+		<filename>images/list_checkbox_ie6.png</filename>
+		<filename>images/list_check_big.png</filename>
+		<filename>images/list_check_big_ie6.png</filename>
+		<filename>images/list_check_ie6.png</filename>
+		<filename>images/list_disc.png</filename>
+		<filename>images/list_disc_big.png</filename>
+		<filename>images/list_disc_big_ie6.png</filename>
+		<filename>images/list_disc_ie6.png</filename>
+		<filename>images/list_plus.png</filename>
+		<filename>images/list_plus_big.png</filename>
+		<filename>images/list_plus_big_ie6.png</filename>
+		<filename>images/list_plus_ie6.png</filename>
+		<filename>images/list_star.png</filename>
+		<filename>images/list_star_big.png</filename>
+		<filename>images/list_star_big_ie6.png</filename>
+		<filename>images/list_star_ie6.png</filename>
+		<filename>images/main_bg.png</filename>
+		<filename>images/menu_dropdown_bg.png</filename>
+		<filename>images/menu_dropdown_bg_evening.png</filename>
+		<filename>images/menu_dropdown_bg_morning.png</filename>
+		<filename>images/menu_dropdown_bg_night.png</filename>
+		<filename>images/menu_level2_item.png</filename>
+		<filename>images/menu_level2_item_evening.png</filename>
+		<filename>images/menu_level2_item_morning.png</filename>
+		<filename>images/menu_level2_item_night.png</filename>
+		<filename>images/menu_level2_item_parent.png</filename>
+		<filename>images/menu_level2_item_parent_evening.png</filename>
+		<filename>images/menu_level2_item_parent_morning.png</filename>
+		<filename>images/menu_level2_item_parent_night.png</filename>
+		<filename>images/module_badge_new.png</filename>
+		<filename>images/module_badge_pick.png</filename>
+		<filename>images/module_badge_top.png</filename>
+		<filename>images/module_dotted_header.png</filename>
+		<filename>images/module_paper_b.png</filename>
+		<filename>images/module_paper_bg.png</filename>
+		<filename>images/module_paper_bl.png</filename>
+		<filename>images/module_paper_border.png</filename>
+		<filename>images/module_paper_br.png</filename>
+		<filename>images/module_paper_header.png</filename>
+		<filename>images/module_polaroid_b.png</filename>
+		<filename>images/module_polaroid_bg.png</filename>
+		<filename>images/module_polaroid_bl.png</filename>
+		<filename>images/module_polaroid_br.png</filename>
+		<filename>images/module_polaroid_tape.png</filename>
+		<filename>images/module_postit_b.png</filename>
+		<filename>images/module_postit_bl.png</filename>
+		<filename>images/module_postit_border.png</filename>
+		<filename>images/module_postit_br.png</filename>
+		<filename>images/module_transblack_bg.png</filename>
+		<filename>images/module_transblack_border.png</filename>
+		<filename>images/module_transwhite_bg.png</filename>
+		<filename>images/module_transwhite_border.png</filename>
+		<filename>images/page_bg_evening.jpg</filename>
+		<filename>images/page_bg_morning.jpg</filename>
+		<filename>images/page_bg_night.jpg</filename>
+		<filename>images/page_bg_noon.jpg</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>
+		<filename>images/readmore.png</filename>
+		<filename>images/readmore_black.png</filename>
+		<filename>images/right_bg.png</filename>
+		<filename>images/search_bg.png</filename>
+		<filename>images/search_button.png</filename>
+		<filename>images/styleswitcher_fontlarge.png</filename>
+		<filename>images/styleswitcher_fontmedium.png</filename>
+		<filename>images/styleswitcher_fontsmall.png</filename>
+		<filename>images/styleswitcher_widthfluid.png</filename>
+		<filename>images/styleswitcher_widththin.png</filename>
+		<filename>images/styleswitcher_widthwide.png</filename>
+		<filename>images/submenu_item.png</filename>
+		<filename>images/submenu_l_item_parent.png</filename>
+		<filename>images/submenu_r_item_parent.png</filename>
+		<filename>images/topmenu_item_bg.png</filename>
+	</files>
+	<positions>
+		<position>absolute</position>
+		<position>topmenu</position>
+		<position>search</position>
+		<position>logo</position>
+		<position>menu</position>
+		<position>banner</position>
+		<position>toolbar</position>
+		<position>header</position>
+                            <position>mynewposition</position>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>footer</position>
+		<position>top</position>
+		<position>top-equal</position>
+		<position>top-goldenratio</position>
+		<position>main-top-equal</position>
+		<position>main-top-goldenratio</position>
+		<position>content-top-equal</position>
+		<position>content-top-goldenratio</position>
+		<position>content-bottom-equal</position>
+		<position>content-bottom-goldenratio</position>
+		<position>main-bottom-equal</position>
+		<position>main-bottom-goldenratio</position>
+		<position>bottom</position>
+		<position>bottom-equal</position>
+		<position>bottom-goldenratio</position>
+		<position>content1</position>
+		<position>content2</position>
+		<position>content3</position>
+		<position>content4</position>
+		<position>content5</position>
+		<position>content6</position>
+		<position>content7</position>
+		<position>content8</position>
+		<position>content9</position>
+		<position>debug</position>
+	</positions>
+	<params>
+		<param name="color" type="list" default="default" label="Template Color" description="Used color for template">
+			<option value="default">Water</option>
+			<option value="grass">Grass</option>
+		</param>
+		<param name="layout" type="list" default="left" label="Layout Style" description="Left column is aligned to the left/right">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="date" type="radio" default="1" label="Show Date" description="Show/Hide the date">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="styleswitcherFont" type="radio" default="1" label="Show Font Styleswitcher" description="Show/Hide the stylswitcher for font size">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="styleswitcherWidth" type="radio" default="0" label="Show Width Styleswitcher" description="Show/Hide the stylswitcher for width">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="fontDefault" type="list" default="font-medium" label="Default Font Size" description="Set the default font size when template is loaded for the first time">
+			<option value="font-small">Small</option>
+			<option value="font-medium">Medium</option>
+			<option value="font-large">Large</option>
+		</param>
+		<param name="widthDefault" type="list" default="width-thin" label="Default Width" description="Set the default width when template is loaded for the first time">
+			<option value="width-thin">Thin</option>
+			<option value="width-wide">Wide</option>
+			<option value="width-fluid">Fluid</option>
+		</param>
+		<param name="widthThinPx" type="text" default="800" label="Width Thin" description="Set the template width for style 'width-thin' in pixels" />
+		<param name="widthWidePx" type="text" default="960" label="Width Wide" description="Set the template width for style 'width-wide' in pixels" />
+		<param name="widthFluidPx" type="text" default="0.9" label="Width Fluid" description="Set the template width for style 'width-fluid' in percent" />
+		<param name="loadMootools" type="radio" default="1" label="Enable Mootools" description="Enable/Disable Mootools 1.11 javascript library">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="loadJavascript" type="radio" default="1" label="Enable Javascripts" description="Enable/Disable all the templates javascripts">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="gzip" type="radio" default="0" label="Enable CSS/JS gzip" description="Enable/Disable the templates gzip compression for css and javascripts">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</install>
